@@ -12,6 +12,12 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 
+
+
+//soy el mas piola juas
+
+
+
 void intro_print(){
   printf("Proyecto MuMa for ESP32\n");
 
