@@ -1,2 +1,4 @@
 #ifndef GPIO_DIRECTION_STRUCT_H_
 #define GPIO_DIRECTION_STRUCT_H_
+
+#endif
