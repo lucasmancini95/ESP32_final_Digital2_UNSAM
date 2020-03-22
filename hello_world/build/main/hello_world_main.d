@@ -35,7 +35,8 @@ hello_world_main.o: \
  /home/lucas/ESP/esp-idf/components/esp_common/include/esp_idf_version.h \
  /home/lucas/ESP/esp-idf/components/freertos/include/freertos/task.h \
  /home/lucas/ESP/esp-idf/components/freertos/include/freertos/list.h \
- /home/lucas/ESP/esp-idf/components/spi_flash/include/esp_spi_flash.h
+ /home/lucas/ESP/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/main/GPIO_driver.h
 
 /home/lucas/ESP/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -108,4 +109,6 @@ hello_world_main.o: \
 /home/lucas/ESP/esp-idf/components/freertos/include/freertos/list.h:
 
 /home/lucas/ESP/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+
+/home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/main/GPIO_driver.h:
 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/main/./hello_world_main.c:
