@@ -7813,7 +7813,6 @@ END GROUP
  *libsoc.a:lldesc.*(.literal .literal.* .text .text.*)
  *libsoc.a:rtc_periph.*(.literal .literal.* .text .text.*)
  *libsoc.a:rtc_pm.*(.literal .literal.* .text .text.*)
- *libsoc.a:emac_hal.*(.literal.emac_hal_tx_unavail_cb .text.emac_hal_tx_unavail_cb)
  *libsoc.a:spi_flash_hal_iram.*(.literal .literal.* .text .text.*)
  .text.spi_flash_hal_device_config
                 0x0000000040085dbc       0x84 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
@@ -7865,6 +7864,7 @@ END GROUP
  *fill*         0x0000000040086451        0x0 
  *fill*         0x0000000040086451        0x0 
  *fill*         0x0000000040086451        0x0 
+ *libsoc.a:emac_hal.*(.literal.emac_hal_tx_unavail_cb .text.emac_hal_tx_unavail_cb)
  *libsoc.a:rtc_clk_init.*(.literal .literal.* .text .text.*)
  *libsoc.a:spi_hal_iram.*(.literal .literal.* .text .text.*)
  *libsoc.a:emac_hal.*(.literal.emac_hal_rx_early_cb .text.emac_hal_rx_early_cb)
