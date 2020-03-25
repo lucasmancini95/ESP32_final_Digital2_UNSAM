@@ -4,10 +4,12 @@
 #include "GPIO_driver.h"
 #include "GPIO_direction_struct.h"
 
-void test_X_Y(unsigned int x, unsigned int y){
 
+
+void test_X_Y_cfg(unsigned int x, unsigned int y){
   //OBS: como no los registros no estan en orden creo este vector para acceder mas comodamente
-  IO_MUX_T IO_MUX_VEC_AUX[40]={ IO_MUX->IO_MUX_GPIO0_REG,
+  unsigned int IO_MUX_VEC_AUX[40]={
+    IO_MUX->IO_MUX_GPIO0_REG,
     IO_MUX->IO_MUX_GPIO2_REG,
     IO_MUX->IO_MUX_GPIO4_REG,
     IO_MUX->IO_MUX_GPIO5_REG,
@@ -30,19 +32,19 @@ void test_X_Y(unsigned int x, unsigned int y){
     IO_MUX->IO_MUX_GPIO36_REG,
     IO_MUX->IO_MUX_GPIO37_REG,
     IO_MUX->IO_MUX_GPIO38_REG,
-    IO_MUX->IO_MUX_GPIO39_REG};
+    IO_MUX->IO_MUX_GPIO39_REG
+    };
 
   printf("%s\n","prueba!" );
   if (x > 39){
-      printf("%s\n","error: la x es mas grande de loq ue debe" );
-      return;
+      printf("%s\n","error: la x es mas grande de lo que debe" );
     }
 
   //Para leer el “GPIO pad X” por el  “peripheral signal Y”:
 
 //1-Configurar el registro GPIO_FUNCy_IN_SEL_CFG :
     // configurar el campo :  GPIO_FUNCy_IN_SEL
-        GPIO->GPIO_FUNC_IN_SEL_CFG_REG[y] &= x;
+      GPIO->GPIO_FUNC_IN_SEL_CFG_REG[y] &= x;
     // limpiar el resto de los campos del registro => son el bit 6 y 7
       GPIO->GPIO_FUNC_IN_SEL_CFG_REG[y] &= ~(3<<6);
         //Selection control for peripheral input m. A value of 0-39 selects which of the 40 GPIO Matrix input pins this signal is connected to,
@@ -76,17 +78,36 @@ void test_X_Y(unsigned int x, unsigned int y){
 
 
 
-  *(IO_MUX_VEC_AUX[x]) |= (0x2)<<12; //seteo la funcion 3
+  IO_MUX_VEC_AUX[x] |= (0x2)<<12; //seteo la funcion 3
 
   //Enable del bit bit FUN_IE
 
-  *(IO_MUX_VEC_AUX[x]) |= (0x1)<<9;
+  IO_MUX_VEC_AUX[x] |= (0x1)<<9;
 
   //Set o clear de los bits FUN_WPU y FUN_WPD
   //segun enable/disable internal pull-up/pull-down resistors
 
-  *(IO_MUX_VEC_AUX[x]) |= (0x0)<<7; //corresponde a pull down
-  *(IO_MUX_VEC_AUX[x]) |= (0x1)<<8; //corresponde a pull up
+  IO_MUX_VEC_AUX[x] |= (0x0)<<7; //corresponde a pull down
+  IO_MUX_VEC_AUX[x] |= (0x1)<<8; //corresponde a pull up
 
   return;
+}
+
+unsigned int read_X_Y(unsigned int x){
+  unsigned int state=35;
+  unsigned int aux;
+
+  if(x<32){
+    aux= GPIO->GPIO_ENABLE_REG;
+    aux&= (1<<x);
+    state= aux>>x;
+  }
+  else if(32<=x && x<40){
+    aux= GPIO->GPIO_ENABLE1_REG;
+    aux&= (1<<x);
+    state= aux>>x;
+  }
+
+  return state;
+
 }

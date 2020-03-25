@@ -7,10 +7,12 @@ Proyect MuMa Main
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
+
 //my libs:
 #include "GPIO_driver.h"
 
 void intro_print(){
+
   printf("Proyect MuMa for ESP32\n");
 
   /* Print chip information */
@@ -30,15 +32,27 @@ void app_main(void)
 {
     intro_print();
 
-    prueba();
+    test_X_Y_cfg(22, 15);
+
+    while(1){
+
+    for (int i = 5; i >= 0; i--) {
+         printf("Reading again in %d seconds...\n", i);
+         vTaskDelay(1000 / portTICK_PERIOD_MS);
+    }
+
+    printf("lectura nuestra:  %d\n",read_X_Y(22) );
+    //printf("lectura f de ESP:  %d\n", gpio_get_level(22) );
+
+  }
 
 
     //Restart after i seconds
-    for (int i = 30; i >= 0; i--) {
-        printf("Restarting in %d seconds...\n", i);
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
-    }
-    printf("Restarting now.\n");
-    fflush(stdout);
-    esp_restart();
+    //for (int i = 30; i >= 0; i--) {
+    //     printf("Restarting in %d seconds...\n", i);
+    //     vTaskDelay(1000 / portTICK_PERIOD_MS);
+    // }
+    // printf("Restarting now.\n");
+    // fflush(stdout);
+    // esp_restart();
 }
