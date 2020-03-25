@@ -98,12 +98,12 @@ unsigned int read_X_Y(unsigned int x){
   unsigned int aux;
 
   if(x<32){
-    aux= GPIO->GPIO_ENABLE_REG;
+    aux= GPIO-> GPIO_IN_REG;
     aux&= (1<<x);
     state= aux>>x;
   }
   else if(32<=x && x<40){
-    aux= GPIO->GPIO_ENABLE1_REG;
+    aux= GPIO-> GPIO_IN1_REG;
     aux&= (1<<x);
     state= aux>>x;
   }

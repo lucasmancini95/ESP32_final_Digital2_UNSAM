@@ -6671,68 +6671,68 @@ END GROUP
  .literal.rtc_clk_wait_for_slow_cycle
                 0x0000000040080b34        0x8 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_time.o)
                                          0x20 (size before relaxing)
- .literal.spi_flash_hal_device_config
-                0x0000000040080b3c        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                          0x8 (size before relaxing)
- .literal.spi_flash_hal_configure_host_read_mode
-                0x0000000040080b3c       0x14 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                         0x48 (size before relaxing)
- .literal.spi_flash_hal_common_command
-                0x0000000040080b50       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                         0x34 (size before relaxing)
- .literal.spi_flash_hal_erase_chip
-                0x0000000040080b60        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                          0x4 (size before relaxing)
- .literal.spi_flash_hal_erase_sector
-                0x0000000040080b60        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                         0x14 (size before relaxing)
- .literal.spi_flash_hal_erase_block
-                0x0000000040080b64        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                         0x14 (size before relaxing)
- .literal.spi_flash_hal_program_page
-                0x0000000040080b64        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                         0x1c (size before relaxing)
- .literal.spi_flash_hal_read
-                0x0000000040080b68        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                         0x18 (size before relaxing)
- .literal.spi_flash_hal_host_idle
-                0x0000000040080b68        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                          0x8 (size before relaxing)
- .literal.spi_flash_hal_set_write_protect
-                0x0000000040080b6c        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                                          0x8 (size before relaxing)
  .literal.rtc_wdt_get_protect_status
-                0x0000000040080b70        0x8 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b3c        0x8 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
  .literal.rtc_wdt_protect_off
-                0x0000000040080b78        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b44        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                           0x8 (size before relaxing)
  .literal.rtc_wdt_protect_on
-                0x0000000040080b78        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b44        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                           0x4 (size before relaxing)
  .literal.rtc_wdt_enable
-                0x0000000040080b78        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b44        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                          0x10 (size before relaxing)
  .literal.rtc_wdt_flashboot_mode_enable
-                0x0000000040080b84        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b50        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                           0x4 (size before relaxing)
  .literal.rtc_wdt_feed
-                0x0000000040080b84        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b50        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                          0x14 (size before relaxing)
  .literal.rtc_wdt_set_time
-                0x0000000040080b84       0x14 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b50       0x14 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                          0x20 (size before relaxing)
  .literal.rtc_wdt_set_stage
-                0x0000000040080b98       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b64       0x14 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                          0x24 (size before relaxing)
  .literal.rtc_wdt_disable
-                0x0000000040080ba8        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b78        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                          0x2c (size before relaxing)
  .literal.rtc_wdt_set_length_of_reset_signal
-                0x0000000040080ba8       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b78       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                          0x14 (size before relaxing)
  .literal.rtc_wdt_is_on
-                0x0000000040080bb8        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040080b88        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                           0x4 (size before relaxing)
+ .literal.spi_flash_hal_device_config
+                0x0000000040080b88        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                          0x8 (size before relaxing)
+ .literal.spi_flash_hal_configure_host_read_mode
+                0x0000000040080b88       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                         0x48 (size before relaxing)
+ .literal.spi_flash_hal_common_command
+                0x0000000040080b98       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                         0x34 (size before relaxing)
+ .literal.spi_flash_hal_erase_chip
+                0x0000000040080ba8        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                          0x4 (size before relaxing)
+ .literal.spi_flash_hal_erase_sector
+                0x0000000040080ba8        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                         0x14 (size before relaxing)
+ .literal.spi_flash_hal_erase_block
+                0x0000000040080bac        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                         0x14 (size before relaxing)
+ .literal.spi_flash_hal_program_page
+                0x0000000040080bac        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                         0x1c (size before relaxing)
+ .literal.spi_flash_hal_read
+                0x0000000040080bb0        0x0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                         0x18 (size before relaxing)
+ .literal.spi_flash_hal_host_idle
+                0x0000000040080bb0        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                          0x8 (size before relaxing)
+ .literal.spi_flash_hal_set_write_protect
+                0x0000000040080bb4        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                                          0x8 (size before relaxing)
  .literal.rtc_clk_32k_enable_common
                 0x0000000040080bb8       0x18 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_bbpll_disable
@@ -7750,126 +7750,126 @@ END GROUP
                 0x0000000040085a3c       0x79 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_time.o)
                 0x0000000040085a3c                rtc_clk_wait_for_slow_cycle
  *fill*         0x0000000040085ab5        0x0 
- *libsoc.a:spi_flash_hal_iram.*(.literal .literal.* .text .text.*)
- *fill*         0x0000000040085ab5        0x3 
- .text.spi_flash_hal_device_config
-                0x0000000040085ab8       0x84 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x0000000040085ab8                spi_flash_hal_device_config
- .text.spi_flash_hal_configure_host_read_mode
-                0x0000000040085b3c      0x1b1 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x0000000040085b3c                spi_flash_hal_configure_host_read_mode
- *fill*         0x0000000040085ced        0x3 
- .text.spi_flash_hal_common_command
-                0x0000000040085cf0      0x185 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x0000000040085cf0                spi_flash_hal_common_command
- *fill*         0x0000000040085e75        0x3 
- .text.spi_flash_hal_erase_chip
-                0x0000000040085e78       0x22 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x0000000040085e78                spi_flash_hal_erase_chip
- *fill*         0x0000000040085e9a        0x2 
- .text.spi_flash_hal_erase_sector
-                0x0000000040085e9c       0x5a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x0000000040085e9c                spi_flash_hal_erase_sector
- *fill*         0x0000000040085ef6        0x2 
- .text.spi_flash_hal_erase_block
-                0x0000000040085ef8       0x52 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x0000000040085ef8                spi_flash_hal_erase_block
- *fill*         0x0000000040085f4a        0x2 
- .text.spi_flash_hal_program_page
-                0x0000000040085f4c       0xa7 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x0000000040085f4c                spi_flash_hal_program_page
- *fill*         0x0000000040085ff3        0x1 
- .text.spi_flash_hal_read
-                0x0000000040085ff4       0xcb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x0000000040085ff4                spi_flash_hal_read
- *fill*         0x00000000400860bf        0x1 
- .text.spi_flash_hal_host_idle
-                0x00000000400860c0       0x3a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x00000000400860c0                spi_flash_hal_host_idle
- *fill*         0x00000000400860fa        0x2 
- .text.spi_flash_hal_set_write_protect
-                0x00000000400860fc       0x40 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x00000000400860fc                spi_flash_hal_set_write_protect
- *fill*         0x000000004008613c        0x0 
- .text.spi_flash_hal_poll_cmd_done
-                0x000000004008613c       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
-                0x000000004008613c                spi_flash_hal_poll_cmd_done
- *fill*         0x000000004008614d        0x0 
- *fill*         0x000000004008614d        0x0 
- *fill*         0x000000004008614d        0x0 
- *fill*         0x000000004008614d        0x0 
- *fill*         0x000000004008614d        0x0 
- *fill*         0x000000004008614d        0x0 
- *fill*         0x000000004008614d        0x0 
- *fill*         0x000000004008614d        0x0 
- *fill*         0x000000004008614d        0x0 
+ *libsoc.a:emac_hal.*(.literal.emac_hal_tx_complete_cb .text.emac_hal_tx_complete_cb)
  *libsoc.a:rtc_wdt.*(.literal .literal.* .text .text.*)
- *fill*         0x000000004008614d        0x3 
+ *fill*         0x0000000040085ab5        0x3 
  .text.rtc_wdt_get_protect_status
-                0x0000000040086150       0x1b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x0000000040086150                rtc_wdt_get_protect_status
- *fill*         0x000000004008616b        0x1 
+                0x0000000040085ab8       0x1b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085ab8                rtc_wdt_get_protect_status
+ *fill*         0x0000000040085ad3        0x1 
  .text.rtc_wdt_protect_off
-                0x000000004008616c       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x000000004008616c                rtc_wdt_protect_off
+                0x0000000040085ad4       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085ad4                rtc_wdt_protect_off
  .text.rtc_wdt_protect_on
-                0x000000004008617c        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x000000004008617c                rtc_wdt_protect_on
- *fill*         0x000000004008618b        0x1 
+                0x0000000040085ae4        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085ae4                rtc_wdt_protect_on
+ *fill*         0x0000000040085af3        0x1 
  .text.rtc_wdt_enable
-                0x000000004008618c       0x2b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x000000004008618c                rtc_wdt_enable
- *fill*         0x00000000400861b7        0x1 
+                0x0000000040085af4       0x2b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085af4                rtc_wdt_enable
+ *fill*         0x0000000040085b1f        0x1 
  .text.rtc_wdt_flashboot_mode_enable
-                0x00000000400861b8       0x18 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x00000000400861b8                rtc_wdt_flashboot_mode_enable
+                0x0000000040085b20       0x18 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085b20                rtc_wdt_flashboot_mode_enable
  .text.rtc_wdt_feed
-                0x00000000400861d0       0x2a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085b38       0x2a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                          0x32 (size before relaxing)
-                0x00000000400861d0                rtc_wdt_feed
- *fill*         0x00000000400861fa        0x2 
+                0x0000000040085b38                rtc_wdt_feed
+ *fill*         0x0000000040085b62        0x2 
  .text.rtc_wdt_set_time
-                0x00000000400861fc       0x61 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x00000000400861fc                rtc_wdt_set_time
- *fill*         0x000000004008625d        0x3 
+                0x0000000040085b64       0x61 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085b64                rtc_wdt_set_time
+ *fill*         0x0000000040085bc5        0x3 
  .text.rtc_wdt_set_stage
-                0x0000000040086260       0xc1 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x0000000040086260                rtc_wdt_set_stage
- *fill*         0x0000000040086321        0x3 
+                0x0000000040085bc8       0xc1 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085bc8                rtc_wdt_set_stage
+ *fill*         0x0000000040085c89        0x3 
  .text.rtc_wdt_disable
-                0x0000000040086324       0x6a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085c8c       0x6a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
                                          0x7e (size before relaxing)
-                0x0000000040086324                rtc_wdt_disable
- *fill*         0x000000004008638e        0x2 
+                0x0000000040085c8c                rtc_wdt_disable
+ *fill*         0x0000000040085cf6        0x2 
  .text.rtc_wdt_set_length_of_reset_signal
-                0x0000000040086390       0x71 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x0000000040086390                rtc_wdt_set_length_of_reset_signal
- *fill*         0x0000000040086401        0x3 
+                0x0000000040085cf8       0x71 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085cf8                rtc_wdt_set_length_of_reset_signal
+ *fill*         0x0000000040085d69        0x3 
  .text.rtc_wdt_is_on
-                0x0000000040086404       0x28 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
-                0x0000000040086404                rtc_wdt_is_on
- *fill*         0x000000004008642c        0x0 
- *fill*         0x000000004008642c        0x0 
- *fill*         0x000000004008642c        0x0 
- *fill*         0x000000004008642c        0x0 
- *fill*         0x000000004008642c        0x0 
- *fill*         0x000000004008642c        0x0 
- *fill*         0x000000004008642c        0x0 
- *fill*         0x000000004008642c        0x0 
+                0x0000000040085d6c       0x28 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_wdt.o)
+                0x0000000040085d6c                rtc_wdt_is_on
+ *fill*         0x0000000040085d94        0x0 
+ *fill*         0x0000000040085d94        0x0 
+ *fill*         0x0000000040085d94        0x0 
+ *fill*         0x0000000040085d94        0x0 
+ *fill*         0x0000000040085d94        0x0 
+ *fill*         0x0000000040085d94        0x0 
+ *fill*         0x0000000040085d94        0x0 
+ *fill*         0x0000000040085d94        0x0 
+ *fill*         0x0000000040085d94        0x0 
  *libsoc.a:spi_slave_hal_iram.*(.literal .literal.* .text .text.*)
  *libsoc.a:lldesc.*(.literal .literal.* .text .text.*)
  *libsoc.a:rtc_periph.*(.literal .literal.* .text .text.*)
  *libsoc.a:rtc_pm.*(.literal .literal.* .text .text.*)
- *libsoc.a:emac_hal.*(.literal.emac_hal_rx_early_cb .text.emac_hal_rx_early_cb)
  *libsoc.a:emac_hal.*(.literal.emac_hal_tx_unavail_cb .text.emac_hal_tx_unavail_cb)
+ *libsoc.a:spi_flash_hal_iram.*(.literal .literal.* .text .text.*)
+ .text.spi_flash_hal_device_config
+                0x0000000040085d94       0x84 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x0000000040085d94                spi_flash_hal_device_config
+ .text.spi_flash_hal_configure_host_read_mode
+                0x0000000040085e18      0x1b1 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x0000000040085e18                spi_flash_hal_configure_host_read_mode
+ *fill*         0x0000000040085fc9        0x3 
+ .text.spi_flash_hal_common_command
+                0x0000000040085fcc      0x185 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x0000000040085fcc                spi_flash_hal_common_command
+ *fill*         0x0000000040086151        0x3 
+ .text.spi_flash_hal_erase_chip
+                0x0000000040086154       0x22 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x0000000040086154                spi_flash_hal_erase_chip
+ *fill*         0x0000000040086176        0x2 
+ .text.spi_flash_hal_erase_sector
+                0x0000000040086178       0x5a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x0000000040086178                spi_flash_hal_erase_sector
+ *fill*         0x00000000400861d2        0x2 
+ .text.spi_flash_hal_erase_block
+                0x00000000400861d4       0x52 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x00000000400861d4                spi_flash_hal_erase_block
+ *fill*         0x0000000040086226        0x2 
+ .text.spi_flash_hal_program_page
+                0x0000000040086228       0xa7 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x0000000040086228                spi_flash_hal_program_page
+ *fill*         0x00000000400862cf        0x1 
+ .text.spi_flash_hal_read
+                0x00000000400862d0       0xcb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x00000000400862d0                spi_flash_hal_read
+ *fill*         0x000000004008639b        0x1 
+ .text.spi_flash_hal_host_idle
+                0x000000004008639c       0x3a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x000000004008639c                spi_flash_hal_host_idle
+ *fill*         0x00000000400863d6        0x2 
+ .text.spi_flash_hal_set_write_protect
+                0x00000000400863d8       0x40 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x00000000400863d8                spi_flash_hal_set_write_protect
+ .text.spi_flash_hal_poll_cmd_done
+                0x0000000040086418       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal_iram.o)
+                0x0000000040086418                spi_flash_hal_poll_cmd_done
+ *fill*         0x0000000040086429        0x0 
+ *fill*         0x0000000040086429        0x0 
+ *fill*         0x0000000040086429        0x0 
+ *fill*         0x0000000040086429        0x0 
+ *fill*         0x0000000040086429        0x0 
+ *fill*         0x0000000040086429        0x0 
+ *fill*         0x0000000040086429        0x0 
+ *fill*         0x0000000040086429        0x0 
+ *fill*         0x0000000040086429        0x0 
  *libsoc.a:rtc_clk_init.*(.literal .literal.* .text .text.*)
- *libsoc.a:emac_hal.*(.literal.emac_hal_rx_unavail_cb .text.emac_hal_rx_unavail_cb)
  *libsoc.a:spi_hal_iram.*(.literal .literal.* .text .text.*)
+ *libsoc.a:emac_hal.*(.literal.emac_hal_rx_early_cb .text.emac_hal_rx_early_cb)
  *libsoc.a:rtc_sleep.*(.literal .literal.* .text .text.*)
  *libsoc.a:emac_hal.*(.literal.emac_hal_isr .text.emac_hal_isr)
- *libsoc.a:emac_hal.*(.literal.emac_hal_tx_complete_cb .text.emac_hal_tx_complete_cb)
+ *libsoc.a:emac_hal.*(.literal.emac_hal_rx_unavail_cb .text.emac_hal_rx_unavail_cb)
  *libsoc.a:cpu_util.*(.literal .literal.* .text .text.*)
  *libsoc.a:rtc_clk.*(.literal .literal.* .text .text.*)
+ *fill*         0x0000000040086429        0x3 
  .text.rtc_clk_32k_enable_common
                 0x000000004008642c       0x88 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_bbpll_disable
@@ -9007,7 +9007,7 @@ END GROUP
                 0x000000003ffb3088                _bss_end = ABSOLUTE (.)
                 0x0000000000000001                ASSERT (((_bss_end - ORIGIN (dram0_0_seg)) <= LENGTH (dram0_0_seg)), DRAM segment data does not fit.)
 
-.flash.rodata   0x000000003f400020     0x6114
+.flash.rodata   0x000000003f400020     0x611c
                 0x000000003f400020                _rodata_start = ABSOLUTE (.)
  *(.rodata_desc .rodata_desc.*)
  .rodata_desc   0x000000003f400020      0x100 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/app_update/libapp_update.a(esp_app_desc.o)
@@ -9305,399 +9305,399 @@ END GROUP
                                          0x9b (size before relaxing)
  *fill*         0x000000003f402b03        0x1 
  .rodata.app_main.str1.4
-                0x000000003f402b04       0x2e /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/main/libmain.a(hello_world_main.o)
- *fill*         0x000000003f402b32        0x2 
+                0x000000003f402b04       0x36 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/main/libmain.a(hello_world_main.o)
+ *fill*         0x000000003f402b3a        0x2 
  .rodata.test_X_Y_cfg.str1.4
-                0x000000003f402b34       0x31 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/main/libmain.a(GPIO_driver.o)
- *fill*         0x000000003f402b65        0x3 
+                0x000000003f402b3c       0x31 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/main/libmain.a(GPIO_driver.o)
+ *fill*         0x000000003f402b6d        0x3 
  .rodata.str1.4
-                0x000000003f402b68       0x32 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/newlib/libnewlib.a(locks.o)
+                0x000000003f402b70       0x32 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/newlib/libnewlib.a(locks.o)
                                          0x50 (size before relaxing)
- *fill*         0x000000003f402b9a        0x2 
+ *fill*         0x000000003f402ba2        0x2 
  .rodata.__FUNCTION__$4559
-                0x000000003f402b9c       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/newlib/libnewlib.a(locks.o)
- *fill*         0x000000003f402bb1        0x3 
+                0x000000003f402ba4       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/newlib/libnewlib.a(locks.o)
+ *fill*         0x000000003f402bb9        0x3 
  .rodata.__FUNCTION__$4550
-                0x000000003f402bb4        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/newlib/libnewlib.a(locks.o)
+                0x000000003f402bbc        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/newlib/libnewlib.a(locks.o)
  .rodata.str1.1
-                0x000000003f402bc0       0x3c /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-assert.o)
+                0x000000003f402bc8       0x3c /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-assert.o)
                                          0x3d (size before relaxing)
  .rodata.str1.1
-                0x000000003f402bfc        0xa /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-locale.o)
+                0x000000003f402c04        0xa /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-locale.o)
                                           0xb (size before relaxing)
  .rodata.str1.1
-                0x000000003f402c06        0xa /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-puts.o)
+                0x000000003f402c0e        0xa /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-puts.o)
                                           0x2 (size before relaxing)
- *fill*         0x000000003f402c06        0x2 
- .rodata        0x000000003f402c08      0x2bc /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-svfprintf.o)
+ *fill*         0x000000003f402c0e        0x2 
+ .rodata        0x000000003f402c10      0x2bc /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-svfprintf.o)
  .rodata.str1.1
-                0x000000003f402ec4       0x34 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-svfprintf.o)
- .rodata        0x000000003f402ef8      0x2bc /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-vfiprintf.o)
+                0x000000003f402ecc       0x34 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-svfprintf.o)
+ .rodata        0x000000003f402f00      0x2bc /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-vfiprintf.o)
  .rodata.str1.1
-                0x000000003f4031b4       0x22 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-vfiprintf.o)
- .rodata        0x000000003f4031b4      0x2bc /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-vfprintf.o)
+                0x000000003f4031bc       0x22 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-vfiprintf.o)
+ .rodata        0x000000003f4031bc      0x2bc /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-vfprintf.o)
  .rodata.str1.1
-                0x000000003f403470       0x34 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-vfprintf.o)
+                0x000000003f403478       0x34 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-vfprintf.o)
  .rodata.str1.1
-                0x000000003f403470        0xd /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-dtoa.o)
+                0x000000003f403478        0xd /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-dtoa.o)
                                           0xf (size before relaxing)
- *fill*         0x000000003f40347d        0x3 
- .rodata        0x000000003f403480      0x128 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-mprec.o)
-                0x000000003f403490                __mprec_tinytens
-                0x000000003f4034b8                __mprec_bigtens
-                0x000000003f4034e0                __mprec_tens
- .rodata        0x000000003f4035a8      0x494 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-svfiprintf.o)
-                0x000000003f403864                __action_table
-                0x000000003f4038d0                __state_table
-                0x000000003f40393c                __chclass
+ *fill*         0x000000003f403485        0x3 
+ .rodata        0x000000003f403488      0x128 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-mprec.o)
+                0x000000003f403498                __mprec_tinytens
+                0x000000003f4034c0                __mprec_bigtens
+                0x000000003f4034e8                __mprec_tens
+ .rodata        0x000000003f4035b0      0x494 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-svfiprintf.o)
+                0x000000003f40386c                __action_table
+                0x000000003f4038d8                __state_table
+                0x000000003f403944                __chclass
  .rodata.str1.1
-                0x000000003f403a3c       0x22 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-svfiprintf.o)
+                0x000000003f403a44       0x22 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/libc.a(lib_a-svfiprintf.o)
  .rodata.soc_memory_region_count
-                0x000000003f403a3c        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
-                0x000000003f403a3c                soc_memory_region_count
+                0x000000003f403a44        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
+                0x000000003f403a44                soc_memory_region_count
  .rodata.soc_memory_regions
-                0x000000003f403a40      0x2b0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
-                0x000000003f403a40                soc_memory_regions
+                0x000000003f403a48      0x2b0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
+                0x000000003f403a48                soc_memory_regions
  .rodata.str1.4
-                0x000000003f403cf0       0x95 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
+                0x000000003f403cf8       0x95 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
                                          0xa5 (size before relaxing)
- *fill*         0x000000003f403d85        0x3 
+ *fill*         0x000000003f403d8d        0x3 
  .rodata.soc_memory_types
-                0x000000003f403d88      0x12c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
-                0x000000003f403d88                soc_memory_types
+                0x000000003f403d90      0x12c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
+                0x000000003f403d90                soc_memory_types
  .rodata.rtc_clk_cal_internal.str1.4
-                0x000000003f403eb4       0xa5 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_time.o)
- *fill*         0x000000003f403f59        0x3 
+                0x000000003f403ebc       0xa5 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000003f403f61        0x3 
  .rodata.__func__$3603
-                0x000000003f403f5c       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_time.o)
- *fill*         0x000000003f403f71        0x3 
+                0x000000003f403f64       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000003f403f79        0x3 
  .rodata.s_prepare_reserved_regions.str1.4
-                0x000000003f403f74      0x10c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(memory_layout_utils.o)
+                0x000000003f403f7c      0x10c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(memory_layout_utils.o)
  .rodata.__func__$2661
-                0x000000003f404080       0x1b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(memory_layout_utils.o)
- *fill*         0x000000003f40409b        0x1 
+                0x000000003f404088       0x1b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(memory_layout_utils.o)
+ *fill*         0x000000003f4040a3        0x1 
  .rodata.spi_flash_init_lock.str1.4
-                0x000000003f40409c       0x57 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
- *fill*         0x000000003f4040f3        0x1 
+                0x000000003f4040a4       0x57 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
+ *fill*         0x000000003f4040fb        0x1 
  .rodata.str1.4
-                0x000000003f4040f4       0xb7 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
- *fill*         0x000000003f4041ab        0x1 
+                0x000000003f4040fc       0xb7 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
+ *fill*         0x000000003f4041b3        0x1 
  .rodata.__func__$5153
-                0x000000003f4041ac       0x31 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
- *fill*         0x000000003f4041dd        0x3 
+                0x000000003f4041b4       0x31 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
+ *fill*         0x000000003f4041e5        0x3 
  .rodata.__func__$5142
-                0x000000003f4041e0       0x32 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
- *fill*         0x000000003f404212        0x2 
+                0x000000003f4041e8       0x32 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
+ *fill*         0x000000003f40421a        0x2 
  .rodata.__func__$5123
-                0x000000003f404214       0x14 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
+                0x000000003f40421c       0x14 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(cache_utils.o)
  .rodata.esp_flash_init_default_chip.str1.4
-                0x000000003f404228       0xfb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_spi_init.o)
- *fill*         0x000000003f404323        0x1 
- .rodata.TAG    0x000000003f404324        0xa /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_spi_init.o)
- *fill*         0x000000003f40432e        0x2 
+                0x000000003f404230       0xfb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_spi_init.o)
+ *fill*         0x000000003f40432b        0x1 
+ .rodata.TAG    0x000000003f40432c        0xa /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_spi_init.o)
+ *fill*         0x000000003f404336        0x2 
  .rodata.esp_flash_noos_functions
-                0x000000003f404330        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(spi_flash_os_func_noos.o)
-                0x000000003f404330                esp_flash_noos_functions
+                0x000000003f404338        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(spi_flash_os_func_noos.o)
+                0x000000003f404338                esp_flash_noos_functions
  .rodata.str1.4
-                0x000000003f40433c       0xe6 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(flash_mmap.o)
- *fill*         0x000000003f404422        0x2 
+                0x000000003f404344       0xe6 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(flash_mmap.o)
+ *fill*         0x000000003f40442a        0x2 
  .rodata.__func__$5267
-                0x000000003f404424       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(flash_mmap.o)
- *fill*         0x000000003f404435        0x3 
+                0x000000003f40442c       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(flash_mmap.o)
+ *fill*         0x000000003f40443d        0x3 
  .rodata.__func__$5258
-                0x000000003f404438       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(flash_mmap.o)
- *fill*         0x000000003f40444d        0x3 
+                0x000000003f404440       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(flash_mmap.o)
+ *fill*         0x000000003f404455        0x3 
  .rodata.esp_partition_next.str1.4
-                0x000000003f404450       0x3d /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x000000003f40448d        0x3 
+                0x000000003f404458       0x3d /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x000000003f404495        0x3 
  .rodata.esp_partition_get.str1.4
-                0x000000003f404490       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x000000003f4044a1        0x3 
+                0x000000003f404498       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x000000003f4044a9        0x3 
  .rodata.__func__$4111
-                0x000000003f4044a4       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x000000003f4044b6        0x2 
+                0x000000003f4044ac       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x000000003f4044be        0x2 
  .rodata.__func__$4073
-                0x000000003f4044b8       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x000000003f4044cb        0x1 
+                0x000000003f4044c0       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x000000003f4044d3        0x1 
  .rodata.esp_flash_spi23_default_os_functions
-                0x000000003f4044cc        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(spi_flash_os_func_app.o)
-                0x000000003f4044cc                esp_flash_spi23_default_os_functions
+                0x000000003f4044d4        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(spi_flash_os_func_app.o)
+                0x000000003f4044d4                esp_flash_spi23_default_os_functions
  .rodata.str1.4
-                0x000000003f4044d8       0x80 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_api.o)
+                0x000000003f4044e0       0x80 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_api.o)
  .rodata.io_mode_str
-                0x000000003f404558       0x2a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_api.o)
- *fill*         0x000000003f404582        0x2 
- .rodata.TAG    0x000000003f404584        0xa /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_api.o)
- *fill*         0x000000003f40458e        0x2 
+                0x000000003f404560       0x2a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_api.o)
+ *fill*         0x000000003f40458a        0x2 
+ .rodata.TAG    0x000000003f40458c        0xa /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/spi_flash/libspi_flash.a(esp_flash_api.o)
+ *fill*         0x000000003f404596        0x2 
  .rodata.uart_tcsetattr
-                0x000000003f404590       0x7c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+                0x000000003f404598       0x7c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
  .rodata.uart_access.str1.4
-                0x000000003f40460c        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f404617        0x1 
+                0x000000003f404614        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f40461f        0x1 
  .rodata.uart_fcntl.str1.4
-                0x000000003f404618       0x46 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f40465e        0x2 
+                0x000000003f404620       0x46 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f404666        0x2 
  .rodata.uart_return_char.str1.4
-                0x000000003f404660       0x1d /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f40467d        0x3 
+                0x000000003f404668       0x1d /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f404685        0x3 
  .rodata.uart_fsync.str1.4
-                0x000000003f404680      0x170 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+                0x000000003f404688      0x170 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
  .rodata.esp_vfs_dev_uart_register.str1.4
-                0x000000003f4047f0       0x36 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f404826        0x2 
+                0x000000003f4047f8       0x36 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f40482e        0x2 
  .rodata.__func__$7094
-                0x000000003f404828        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f404833        0x1 
+                0x000000003f404830        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f40483b        0x1 
  .rodata.__func__$7110
-                0x000000003f404834       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f404845        0x3 
+                0x000000003f40483c       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f40484d        0x3 
  .rodata.__func__$7116
-                0x000000003f404848        0xa /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f404852        0x2 
+                0x000000003f404850        0xa /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f40485a        0x2 
  .rodata.__func__$7132
-                0x000000003f404854        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f40485f        0x1 
+                0x000000003f40485c        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f404867        0x1 
  .rodata.__func__$7128
-                0x000000003f404860        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f40486b        0x1 
+                0x000000003f404868        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f404873        0x1 
  .rodata.__func__$7138
-                0x000000003f40486c        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f404877        0x1 
+                0x000000003f404874        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f40487f        0x1 
  .rodata.__func__$6980
-                0x000000003f404878       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f40488a        0x2 
+                0x000000003f404880       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f404892        0x2 
  .rodata.__func__$7148
-                0x000000003f40488c        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f404897        0x1 
+                0x000000003f404894        0xb /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f40489f        0x1 
  .rodata.__func__$7342
-                0x000000003f404898       0x1a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x000000003f4048b2        0x2 
- .rodata.s_ctx  0x000000003f4048b4        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+                0x000000003f4048a0       0x1a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x000000003f4048ba        0x2 
+ .rodata.s_ctx  0x000000003f4048bc        0xc /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs_uart.o)
  .rodata.translate_path.str1.4
-                0x000000003f4048c0       0x71 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs.o)
- *fill*         0x000000003f404931        0x3 
- .rodata        0x000000003f404934        0x3 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs.o)
- *fill*         0x000000003f404937        0x1 
+                0x000000003f4048c8       0x71 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs.o)
+ *fill*         0x000000003f404939        0x3 
+ .rodata        0x000000003f40493c        0x3 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs.o)
+ *fill*         0x000000003f40493f        0x1 
  .rodata.__func__$5937
-                0x000000003f404938        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs.o)
- *fill*         0x000000003f404947        0x1 
- .rodata        0x000000003f404948       0x20 /home/lucas/ESP/esp-idf/components/xtensa/esp32/libhal.a(interrupts--intlevel.o)
-                0x000000003f404948                Xthal_intlevel
+                0x000000003f404940        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/vfs/libvfs.a(vfs.o)
+ *fill*         0x000000003f40494f        0x1 
+ .rodata        0x000000003f404950       0x20 /home/lucas/ESP/esp-idf/components/xtensa/esp32/libhal.a(interrupts--intlevel.o)
+                0x000000003f404950                Xthal_intlevel
  .rodata.get_ota_partition_count.str1.4
-                0x000000003f404968       0x84 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/app_update/libapp_update.a(esp_ota_ops.o)
+                0x000000003f404970       0x84 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/app_update/libapp_update.a(esp_ota_ops.o)
  .rodata.esp_ota_get_running_partition.str1.4
-                0x000000003f4049ec       0x33 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/app_update/libapp_update.a(esp_ota_ops.o)
- *fill*         0x000000003f404a1f        0x1 
+                0x000000003f4049f4       0x33 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/app_update/libapp_update.a(esp_ota_ops.o)
+ *fill*         0x000000003f404a27        0x1 
  .rodata.__func__$5480
-                0x000000003f404a20       0x1e /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/app_update/libapp_update.a(esp_ota_ops.o)
- *fill*         0x000000003f404a3e        0x2 
+                0x000000003f404a28       0x1e /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/app_update/libapp_update.a(esp_ota_ops.o)
+ *fill*         0x000000003f404a46        0x2 
  .rodata.uart_pattern_dequeue.str1.4
-                0x000000003f404a40       0x3e /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f404a7e        0x2 
+                0x000000003f404a48       0x3e /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f404a86        0x2 
  .rodata.get_periph_module.str1.4
-                0x000000003f404a80       0x49 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f404ac9        0x3 
+                0x000000003f404a88       0x49 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f404ad1        0x3 
  .rodata.uart_reset_rx_fifo.str1.4
-                0x000000003f404acc      0x128 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+                0x000000003f404ad4      0x128 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
  .rodata.uart_enable_intr_mask_from_isr.str1.4
-                0x000000003f404bf4      0x244 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+                0x000000003f404bfc      0x244 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
  .rodata.uart_disable_intr_mask_from_isr.str1.4
-                0x000000003f404e38      0x124 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+                0x000000003f404e40      0x124 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
  .rodata.uart_set_word_length.str1.4
-                0x000000003f404f5c        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f404f6b        0x1 
+                0x000000003f404f64        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f404f73        0x1 
  .rodata.uart_set_stop_bits.str1.4
-                0x000000003f404f6c        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f404f7b        0x1 
+                0x000000003f404f74        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f404f83        0x1 
  .rodata.uart_flush_input.str1.4
-                0x000000003f404f7c       0x2d /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f404fa9        0x3 
+                0x000000003f404f84       0x2d /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f404fb1        0x3 
  .rodata.__FUNCTION__$6635
-                0x000000003f404fac       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f404fbd        0x3 
+                0x000000003f404fb4       0x11 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f404fc5        0x3 
  .rodata.__FUNCTION__$6629
-                0x000000003f404fc0       0x1b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f404fdb        0x1 
+                0x000000003f404fc8       0x1b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f404fe3        0x1 
  .rodata.__FUNCTION__$6361
-                0x000000003f404fdc       0x1a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f404ff6        0x2 
+                0x000000003f404fe4       0x1a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f404ffe        0x2 
  .rodata.__FUNCTION__$6545
-                0x000000003f404ff8       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f40500a        0x2 
+                0x000000003f405000       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f405012        0x2 
  .rodata.__func__$6288
-                0x000000003f40500c       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f40501f        0x1 
+                0x000000003f405014       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f405027        0x1 
  .rodata.__FUNCTION__$6287
-                0x000000003f405020       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f405033        0x1 
+                0x000000003f405028       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f40503b        0x1 
  .rodata.__func__$6315
-                0x000000003f405034       0x17 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f40504b        0x1 
+                0x000000003f40503c       0x17 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f405053        0x1 
  .rodata.__FUNCTION__$6314
-                0x000000003f40504c       0x17 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f405063        0x1 
+                0x000000003f405054       0x17 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f40506b        0x1 
  .rodata.__func__$6303
-                0x000000003f405064       0x16 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f40507a        0x2 
+                0x000000003f40506c       0x16 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f405082        0x2 
  .rodata.__FUNCTION__$6302
-                0x000000003f40507c       0x16 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f405092        0x2 
+                0x000000003f405084       0x16 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f40509a        0x2 
  .rodata.__FUNCTION__$6250
-                0x000000003f405094       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f4050a6        0x2 
+                0x000000003f40509c       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f4050ae        0x2 
  .rodata.__FUNCTION__$6242
-                0x000000003f4050a8       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f4050ba        0x2 
+                0x000000003f4050b0       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f4050c2        0x2 
  .rodata.__FUNCTION__$6236
-                0x000000003f4050bc       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+                0x000000003f4050c4       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
  .rodata.__FUNCTION__$6231
-                0x000000003f4050cc       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+                0x000000003f4050d4       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
  .rodata.__FUNCTION__$6226
-                0x000000003f4050dc       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f4050ef        0x1 
+                0x000000003f4050e4       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f4050f7        0x1 
  .rodata.__FUNCTION__$6221
-                0x000000003f4050f0       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f405103        0x1 
+                0x000000003f4050f8       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f40510b        0x1 
  .rodata.__FUNCTION__$6216
-                0x000000003f405104       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f405119        0x3 
+                0x000000003f40510c       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f405121        0x3 
  .rodata.__FUNCTION__$6211
-                0x000000003f40511c       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
- *fill*         0x000000003f405131        0x3 
+                0x000000003f405124       0x15 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(uart.o)
+ *fill*         0x000000003f405139        0x3 
  .rodata.timer_get_counter_value.str1.4
-                0x000000003f405134       0x52 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(timer.o)
+                0x000000003f40513c       0x52 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(timer.o)
                                          0x76 (size before relaxing)
- *fill*         0x000000003f405186        0x2 
+ *fill*         0x000000003f40518e        0x2 
  .rodata.__FUNCTION__$5044
-                0x000000003f405188       0x18 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(timer.o)
+                0x000000003f405190       0x18 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(timer.o)
  .rodata.get_clk_en_mask
-                0x000000003f4051a0       0x8c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(periph_ctrl.o)
+                0x000000003f4051a8       0x8c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(periph_ctrl.o)
  .rodata.get_rst_en_mask
-                0x000000003f40522c       0x8c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(periph_ctrl.o)
+                0x000000003f405234       0x8c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/driver/libdriver.a(periph_ctrl.o)
  .rodata.CHIP_VER_REV2
-                0x000000003f4052b8        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_table.o)
- .rodata.CHIP_VER_REV1
-                0x000000003f4052bc        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_table.o)
- .rodata.WR_DIS_FLASH_CRYPT_CNT
                 0x000000003f4052c0        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_table.o)
- .rodata.DISABLE_DL_CACHE
+ .rodata.CHIP_VER_REV1
                 0x000000003f4052c4        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_table.o)
- .rodata.DISABLE_DL_DECRYPT
+ .rodata.WR_DIS_FLASH_CRYPT_CNT
                 0x000000003f4052c8        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_table.o)
- .rodata.DISABLE_DL_ENCRYPT
+ .rodata.DISABLE_DL_CACHE
                 0x000000003f4052cc        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_table.o)
+ .rodata.DISABLE_DL_DECRYPT
+                0x000000003f4052d0        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_table.o)
+ .rodata.DISABLE_DL_ENCRYPT
+                0x000000003f4052d4        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_table.o)
  .rodata.set_cnt_in_reg.str1.4
-                0x000000003f4052d0       0x75 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
- *fill*         0x000000003f405345        0x3 
+                0x000000003f4052d8       0x75 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
+ *fill*         0x000000003f40534d        0x3 
  .rodata.write_reg.str1.4
-                0x000000003f405348       0xc0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
+                0x000000003f405350       0xc0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
  .rodata.esp_efuse_utility_process.str1.4
-                0x000000003f405408       0x69 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
- *fill*         0x000000003f405471        0x3 
+                0x000000003f405410       0x69 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
+ *fill*         0x000000003f405479        0x3 
  .rodata.esp_efuse_utility_read_reg.str1.4
-                0x000000003f405474       0xd0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
+                0x000000003f40547c       0xd0 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
  .rodata.__func__$3795
-                0x000000003f405544       0x1b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
- *fill*         0x000000003f40555f        0x1 
+                0x000000003f40554c       0x1b /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
+ *fill*         0x000000003f405567        0x1 
  .rodata.__func__$3669
-                0x000000003f405560       0x1a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
- *fill*         0x000000003f40557a        0x2 
+                0x000000003f405568       0x1a /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
+ *fill*         0x000000003f405582        0x2 
  .rodata.range_read_addr_blocks
-                0x000000003f40557c       0x20 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
+                0x000000003f405584       0x20 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/efuse/libefuse.a(esp_efuse_utility.o)
  .rodata.str1.4
-                0x000000003f40559c       0xa9 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
- *fill*         0x000000003f405645        0x3 
+                0x000000003f4055a4       0xa9 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
+ *fill*         0x000000003f40564d        0x3 
  .rodata.esp_timer_impl_init.str1.4
-                0x000000003f405648       0xea /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
- *fill*         0x000000003f405732        0x2 
+                0x000000003f405650       0xea /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
+ *fill*         0x000000003f40573a        0x2 
  .rodata.__func__$5720
-                0x000000003f405734       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
- *fill*         0x000000003f405747        0x1 
+                0x000000003f40573c       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
+ *fill*         0x000000003f40574f        0x1 
  .rodata.__func__$5789
-                0x000000003f405748       0x14 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
+                0x000000003f405750       0x14 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
  .rodata.__func__$5750
-                0x000000003f40575c       0x19 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
- *fill*         0x000000003f405775        0x3 
+                0x000000003f405764       0x19 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp32/libesp32.a(esp_timer_esp32.o)
+ *fill*         0x000000003f40577d        0x3 
  .rodata.prvReturnItemByteBuf.str1.4
-                0x000000003f405778       0x3c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
+                0x000000003f405780       0x3c /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
                                          0x58 (size before relaxing)
  .rodata.__FUNCTION__$5199
-                0x000000003f4057b4       0x16 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
- *fill*         0x000000003f4057ca        0x2 
+                0x000000003f4057bc       0x16 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
+ *fill*         0x000000003f4057d2        0x2 
  .rodata.__FUNCTION__$5058
-                0x000000003f4057cc       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
- *fill*         0x000000003f4057de        0x2 
+                0x000000003f4057d4       0x12 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
+ *fill*         0x000000003f4057e6        0x2 
  .rodata.__FUNCTION__$5137
-                0x000000003f4057e0       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
- *fill*         0x000000003f4057f3        0x1 
+                0x000000003f4057e8       0x13 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
+ *fill*         0x000000003f4057fb        0x1 
  .rodata.__FUNCTION__$5113
-                0x000000003f4057f4       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
+                0x000000003f4057fc       0x10 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
  .rodata.__FUNCTION__$4939
-                0x000000003f405804        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
- *fill*         0x000000003f405813        0x1 
+                0x000000003f40580c        0xf /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_ringbuf/libesp_ringbuf.a(ringbuf.o)
+ *fill*         0x000000003f40581b        0x1 
  .rodata.rtc_gpio_desc
-                0x000000003f405814      0x820 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_periph.o)
-                0x000000003f405814                rtc_gpio_desc
+                0x000000003f40581c      0x820 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(rtc_periph.o)
+                0x000000003f40581c                rtc_gpio_desc
  .rodata.spi_flash_clk_cfg_reg
-                0x000000003f406034       0x30 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal.o)
+                0x000000003f40603c       0x30 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(spi_flash_hal.o)
  *libesp_event.a:default_event_loop.*(.rodata.esp_system_event_debug.str1.4 .rodata.esp_event_loop_create_default.str1.4 .rodata.esp_event_send_to_default_loop)
  *libesp_event.a:esp_event.*(.rodata.handler_instances_add.str1.4 .rodata.base_node_add_handler.str1.4 .rodata.loop_node_add_handler.str1.4 .rodata.esp_event_loop_create.str1.4 .rodata.esp_event_loop_run.str1.4 .rodata.esp_event_loop_run_task.str1.4 .rodata.esp_event_handler_register_with.str1.4 .rodata.esp_event_handler_unregister_with.str1.4 .rodata.__func__$7057 .rodata.__func__$7044 .rodata.__func__$7024 .rodata.__func__$7008 .rodata.__func__$6985 .rodata.__func__$6948 .rodata.__func__$6939)
  *(.irom1.text)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x000000003f406064                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x000000003f40606c                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table .gcc_except_table.*)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
-                0x000000003f406064                . = ((. + 0x3) & 0xfffffffffffffffc)
-                0x000000003f406064                __eh_frame = ABSOLUTE (.)
+                0x000000003f40606c                . = ((. + 0x3) & 0xfffffffffffffffc)
+                0x000000003f40606c                __eh_frame = ABSOLUTE (.)
  *(.eh_frame)
- .eh_frame      0x000000003f406064       0x28 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/libgcc.a(_divdi3.o)
- .eh_frame      0x000000003f40608c       0x28 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/libgcc.a(_moddi3.o)
- .eh_frame      0x000000003f4060b4       0x28 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/libgcc.a(_udivdi3.o)
- .eh_frame      0x000000003f4060dc       0x28 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/libgcc.a(_umoddi3.o)
-                0x000000003f406108                . = ((. + 0x7) & 0xfffffffffffffffc)
- *fill*         0x000000003f406104        0x4 
-                0x000000003f406108                __init_array_start = ABSOLUTE (.)
+ .eh_frame      0x000000003f40606c       0x28 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/libgcc.a(_divdi3.o)
+ .eh_frame      0x000000003f406094       0x28 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/libgcc.a(_moddi3.o)
+ .eh_frame      0x000000003f4060bc       0x28 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/libgcc.a(_udivdi3.o)
+ .eh_frame      0x000000003f4060e4       0x28 /home/lucas/ESP/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/libgcc.a(_umoddi3.o)
+                0x000000003f406110                . = ((. + 0x7) & 0xfffffffffffffffc)
+ *fill*         0x000000003f40610c        0x4 
+                0x000000003f406110                __init_array_start = ABSOLUTE (.)
  *(EXCLUDE_FILE(*crtbegin.* *crtend.*) .ctors .ctors.*)
- .ctors         0x000000003f406108        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_common/libesp_common.a(ipc.o)
-                0x000000003f40610c                __init_array_end = ABSOLUTE (.)
+ .ctors         0x000000003f406110        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/esp_common/libesp_common.a(ipc.o)
+                0x000000003f406114                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x000000003f40610c                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x000000003f406114                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x000000003f40610c                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x000000003f406114                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x000000003f40610c                soc_reserved_memory_region_start = ABSOLUTE (.)
+                0x000000003f406114                soc_reserved_memory_region_start = ABSOLUTE (.)
  *(.reserved_memory_address)
  .reserved_memory_address
-                0x000000003f40610c       0x28 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
-                0x000000003f406134                soc_reserved_memory_region_end = ABSOLUTE (.)
-                0x000000003f406134                _rodata_end = ABSOLUTE (.)
-                0x000000003f406134                _lit4_start = ABSOLUTE (.)
+                0x000000003f406114       0x28 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/soc/libsoc.a(soc_memory_layout.o)
+                0x000000003f40613c                soc_reserved_memory_region_end = ABSOLUTE (.)
+                0x000000003f40613c                _rodata_end = ABSOLUTE (.)
+                0x000000003f40613c                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x000000003f406134                _lit4_end = ABSOLUTE (.)
-                0x000000003f406134                . = ALIGN (0x4)
-                0x000000003f406134                _thread_local_start = ABSOLUTE (.)
+                0x000000003f40613c                _lit4_end = ABSOLUTE (.)
+                0x000000003f40613c                . = ALIGN (0x4)
+                0x000000003f40613c                _thread_local_start = ABSOLUTE (.)
  *(.tdata)
  *(.tdata.*)
  *(.tbss)
  *(.tbss.*)
-                0x000000003f406134                _thread_local_end = ABSOLUTE (.)
-                0x000000003f406134                . = ALIGN (0x4)
+                0x000000003f40613c                _thread_local_end = ABSOLUTE (.)
+                0x000000003f40613c                . = ALIGN (0x4)
 
 .flash.text     0x00000000400d0018    0x12e4b
                 0x00000000400d0018                _stext = .
                 0x00000000400d0018                _text_start = ABSOLUTE (.)
- *(EXCLUDE_FILE(*libesp_gdbstub.a *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libfreertos.a *libhal.a *libnewlib.a:heap.* *libxtensa.a:eri.* *libsoc.a:rtc_init.* *libsoc.a:rtc_time.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_wdt.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_clk_init.* *libsoc.a:spi_hal_iram.* *libsoc.a:rtc_sleep.* *libsoc.a:cpu_util.* *libsoc.a:rtc_clk.* *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libesp32.a:panic.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *librtc.a *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libgcov.a *libesp_ringbuf.a) .literal EXCLUDE_FILE(*libesp_gdbstub.a *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libfreertos.a *libhal.a *libnewlib.a:heap.* *libxtensa.a:eri.* *libsoc.a:rtc_init.* *libsoc.a:rtc_time.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_wdt.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_clk_init.* *libsoc.a:spi_hal_iram.* *libsoc.a:rtc_sleep.* *libsoc.a:cpu_util.* *libsoc.a:rtc_clk.* *libsoc.a:emac_hal.* *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libesp32.a:panic.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *librtc.a *libesp_event.a:esp_event.* *libesp_event.a:default_event_loop.* *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libgcov.a *libesp_ringbuf.a *libesp_eth.a:esp_eth_mac_dm9051.* *libesp_eth.a:esp_eth_mac_esp32.*) .literal.* EXCLUDE_FILE(*libesp_gdbstub.a *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libfreertos.a *libhal.a *libnewlib.a:heap.* *libxtensa.a:eri.* *libsoc.a:rtc_init.* *libsoc.a:rtc_time.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_wdt.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_clk_init.* *libsoc.a:spi_hal_iram.* *libsoc.a:rtc_sleep.* *libsoc.a:cpu_util.* *libsoc.a:rtc_clk.* *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libesp32.a:panic.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *librtc.a *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libgcov.a *libesp_ringbuf.a) .text EXCLUDE_FILE(*libesp_gdbstub.a *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libfreertos.a *libhal.a *libnewlib.a:heap.* *libxtensa.a:eri.* *libsoc.a:rtc_init.* *libsoc.a:rtc_time.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_wdt.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_pm.* *libsoc.a:rtc_clk_init.* *libsoc.a:spi_hal_iram.* *libsoc.a:rtc_sleep.* *libsoc.a:cpu_util.* *libsoc.a:rtc_clk.* *libsoc.a:emac_hal.* *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libesp32.a:panic.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *librtc.a *libesp_event.a:esp_event.* *libesp_event.a:default_event_loop.* *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libgcov.a *libesp_ringbuf.a *libesp_eth.a:esp_eth_mac_dm9051.* *libesp_eth.a:esp_eth_mac_esp32.*) .text.* EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifi0iram EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifi0iram.*)
+ *(EXCLUDE_FILE(*libesp_gdbstub.a *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libfreertos.a *libhal.a *libnewlib.a:heap.* *libxtensa.a:eri.* *libsoc.a:rtc_init.* *libsoc.a:rtc_time.* *libsoc.a:rtc_wdt.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_pm.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk_init.* *libsoc.a:spi_hal_iram.* *libsoc.a:rtc_sleep.* *libsoc.a:cpu_util.* *libsoc.a:rtc_clk.* *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libesp32.a:panic.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *librtc.a *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libgcov.a *libesp_ringbuf.a) .literal EXCLUDE_FILE(*libesp_gdbstub.a *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libfreertos.a *libhal.a *libnewlib.a:heap.* *libxtensa.a:eri.* *libsoc.a:rtc_init.* *libsoc.a:rtc_time.* *libsoc.a:rtc_wdt.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_pm.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk_init.* *libsoc.a:spi_hal_iram.* *libsoc.a:rtc_sleep.* *libsoc.a:cpu_util.* *libsoc.a:rtc_clk.* *libsoc.a:emac_hal.* *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libesp32.a:panic.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *librtc.a *libesp_event.a:esp_event.* *libesp_event.a:default_event_loop.* *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libgcov.a *libesp_ringbuf.a *libesp_eth.a:esp_eth_mac_dm9051.* *libesp_eth.a:esp_eth_mac_esp32.*) .literal.* EXCLUDE_FILE(*libesp_gdbstub.a *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libfreertos.a *libhal.a *libnewlib.a:heap.* *libxtensa.a:eri.* *libsoc.a:rtc_init.* *libsoc.a:rtc_time.* *libsoc.a:rtc_wdt.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_pm.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk_init.* *libsoc.a:spi_hal_iram.* *libsoc.a:rtc_sleep.* *libsoc.a:cpu_util.* *libsoc.a:rtc_clk.* *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libesp32.a:panic.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *librtc.a *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libgcov.a *libesp_ringbuf.a) .text EXCLUDE_FILE(*libesp_gdbstub.a *libespcoredump.a:core_dump_flash.* *libespcoredump.a:core_dump_common.* *libespcoredump.a:core_dump_uart.* *libespcoredump.a:core_dump_port.* *libfreertos.a *libhal.a *libnewlib.a:heap.* *libxtensa.a:eri.* *libsoc.a:rtc_init.* *libsoc.a:rtc_time.* *libsoc.a:rtc_wdt.* *libsoc.a:spi_slave_hal_iram.* *libsoc.a:lldesc.* *libsoc.a:rtc_periph.* *libsoc.a:rtc_pm.* *libsoc.a:spi_flash_hal_iram.* *libsoc.a:rtc_clk_init.* *libsoc.a:spi_hal_iram.* *libsoc.a:rtc_sleep.* *libsoc.a:cpu_util.* *libsoc.a:rtc_clk.* *libsoc.a:emac_hal.* *libspi_flash.a:spi_flash_rom_patch.* *libspi_flash.a:spi_flash_chip_issi.* *libspi_flash.a:spi_flash_chip_generic.* *libspi_flash.a:memspi_host_driver.* *libesp32.a:panic.* *libheap.a:multi_heap_poisoning.* *libheap.a:multi_heap.* *librtc.a *libesp_event.a:esp_event.* *libesp_event.a:default_event_loop.* *libgcc.a:_divsf3.* *libgcc.a:lib2funcs.* *libapp_trace.a:SEGGER_SYSVIEW_Config_FreeRTOS.* *libapp_trace.a:SEGGER_SYSVIEW.* *libapp_trace.a:app_trace.* *libapp_trace.a:app_trace_util.* *libapp_trace.a:SEGGER_RTT_esp32.* *libapp_trace.a:SEGGER_SYSVIEW_FreeRTOS.* *libgcov.a *libesp_ringbuf.a *libesp_eth.a:esp_eth_mac_dm9051.* *libesp_eth.a:esp_eth_mac_esp32.*) .text.* EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifi0iram EXCLUDE_FILE(*libnet80211.a *libpp.a) .wifi0iram.*)
  .literal.esp_ota_get_app_description
                 0x00000000400d0018        0x4 /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/app_update/libapp_update.a(esp_app_desc.o)
  .literal.__cxx_fatal_exception
