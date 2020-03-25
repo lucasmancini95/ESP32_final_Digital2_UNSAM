@@ -4,9 +4,7 @@
 #include "GPIO_driver.h"
 #include "GPIO_direction_struct.h"
 
-
-
-void test_X_Y_cfg(unsigned int x, unsigned int y){
+void gpio_input_direct_cfg(unsigned int x){
   //OBS: como no los registros no estan en orden creo este vector para acceder mas comodamente
   unsigned int IO_MUX_VEC_AUX[40]={
     IO_MUX->IO_MUX_GPIO0_REG,
@@ -35,7 +33,58 @@ void test_X_Y_cfg(unsigned int x, unsigned int y){
     IO_MUX->IO_MUX_GPIO39_REG
     };
 
-  printf("%s\n","prueba!" );
+  if (x > 39){
+      printf("%s\n","error: la x es mas grande de lo que debe" );
+    }
+
+    //Hay que setear el registro  IO_MUX_x_REG:
+    // a- Setear el campo (MCU_SEL) para la funcion IO_MUX function (correspondiente a X)
+      //(this is Function #3—numeric value 2—for all pins).
+
+    IO_MUX_VEC_AUX[x] |= (0x2)<<12; //seteo la funcion 3
+
+    //Enable del bit bit FUN_IE
+
+    IO_MUX_VEC_AUX[x] |= (0x1)<<9;
+
+    //Set o clear de los bits FUN_WPU y FUN_WPD
+    //segun enable/disable internal pull-up/pull-down resistors
+
+    IO_MUX_VEC_AUX[x] |= (0x0)<<7; //corresponde a pull down
+    IO_MUX_VEC_AUX[x] |= (0x1)<<8; //corresponde a pull up
+
+    return;
+}
+
+void gpio_input_to_periferic_cfg(unsigned int x, unsigned int y){
+  //OBS: como no los registros no estan en orden creo este vector para acceder mas comodamente
+  unsigned int IO_MUX_VEC_AUX[40]={
+    IO_MUX->IO_MUX_GPIO0_REG,
+    IO_MUX->IO_MUX_GPIO2_REG,
+    IO_MUX->IO_MUX_GPIO4_REG,
+    IO_MUX->IO_MUX_GPIO5_REG,
+    IO_MUX->IO_MUX_GPIO16_REG,
+    IO_MUX->IO_MUX_GPIO17_REG,
+    IO_MUX->IO_MUX_GPIO18_REG,
+    IO_MUX->IO_MUX_GPIO19_REG,
+    IO_MUX->IO_MUX_GPIO20_REG,
+    IO_MUX->IO_MUX_GPIO21_REG,
+    IO_MUX->IO_MUX_GPIO22_REG,
+    IO_MUX->IO_MUX_GPIO23_REG,
+    IO_MUX->IO_MUX_GPIO24_REG,
+    IO_MUX->IO_MUX_GPIO25_REG,
+    IO_MUX->IO_MUX_GPIO26_REG,
+    IO_MUX->IO_MUX_GPIO27_REG,
+    IO_MUX->IO_MUX_GPIO32_REG,
+    IO_MUX->IO_MUX_GPIO33_REG,
+    IO_MUX->IO_MUX_GPIO34_REG,
+    IO_MUX->IO_MUX_GPIO35_REG,
+    IO_MUX->IO_MUX_GPIO36_REG,
+    IO_MUX->IO_MUX_GPIO37_REG,
+    IO_MUX->IO_MUX_GPIO38_REG,
+    IO_MUX->IO_MUX_GPIO39_REG
+    };
+
   if (x > 39){
       printf("%s\n","error: la x es mas grande de lo que debe" );
     }
@@ -93,7 +142,7 @@ void test_X_Y_cfg(unsigned int x, unsigned int y){
   return;
 }
 
-unsigned int read_X_Y(unsigned int x){
+unsigned int gpio_get_state(unsigned int x){
   unsigned int state=35;
   unsigned int aux;
 
@@ -104,8 +153,8 @@ unsigned int read_X_Y(unsigned int x){
   }
   else if(32<=x && x<40){
     aux= GPIO-> GPIO_IN1_REG;
-    aux&= (1<<x);
-    state= aux>>x;
+    aux&= (1<<(x-32));
+    state= aux>>(x-32);
   }
 
   return state;

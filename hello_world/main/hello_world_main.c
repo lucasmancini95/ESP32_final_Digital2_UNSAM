@@ -28,11 +28,11 @@ void intro_print(){
           (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
 }
 
-void app_main(void)
-{
-    intro_print();
+void app_main(void){
+    unsigned int input_pin=15;
 
-    test_X_Y_cfg(22, 15);
+    intro_print();
+    gpio_input_direct_cfg(input_pin);
 
     while(1){
 
@@ -41,7 +41,7 @@ void app_main(void)
          vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 
-    printf("lectura nuestra:  %d\n",read_X_Y(22) );
+    printf("The state of the gpio number %d is:  %d\n",input_pin, gpio_get_state(input_pin) );
     //printf("lectura f de ESP:  %d\n", gpio_get_level(22) );
 
   }

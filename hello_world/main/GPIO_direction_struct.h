@@ -8,12 +8,14 @@
 #define IO_MUX 				((IO_MUX_T *) IO_MUX_PORT_BASE) //Apunto la struct a la direccion de memoria base de los gpio
 
 typedef struct {
+	unsigned int NA;
 	unsigned int GPIO_OUT_REG;
   unsigned int GPIO_OUT_W1TS_REG;
   unsigned int GPIO_OUT_W1TC_REG;
   unsigned int GPIO_OUT1_REG;
   unsigned int GPIO_OUT1_W1TS_REG ;
   unsigned int GPIO_OUT1_W1TC_REG ;
+	unsigned int NA2; //sdio_select ?
   unsigned int GPIO_ENABLE_REG ;
   unsigned int GPIO_ENABLE_W1TS_REG ;
   unsigned int GPIO_ENABLE_W1TC_REG ;
@@ -29,19 +31,21 @@ typedef struct {
   unsigned int GPIO_STATUS1_REG  ;
   unsigned int GPIO_STATUS1_W1TS_REG;
   unsigned int GPIO_STATUS1_W1TC_REG;
+	unsigned int NA3;
   unsigned int GPIO_ACPU_INT_REG;
   unsigned int GPIO_ACPU_NMI_INT_REG;
   unsigned int GPIO_PCPU_INT_REG;
   unsigned int GPIO_PCPU_NMI_INT_REG;
+	unsigned int NA4;
   unsigned int GPIO_ACPU_INT1_REG;
   unsigned int GPIO_ACPU_NMI_INT1_REG;
   unsigned int GPIO_PCPU_INT1_REG;
   unsigned int GPIO_PCPU_NMI_INT1_REG;
-
+  unsigned int NA5;
   unsigned int GPIO_PIN_REG[40];
-
+  unsigned int NA6;
+	unsigned int NA7;
   unsigned int GPIO_FUNC_IN_SEL_CFG_REG[256];
-
   unsigned int GPIO_FUNC_OUT_SEL_CFG_REG[40];
 } GPIO_T;
 
