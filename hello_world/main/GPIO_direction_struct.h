@@ -89,32 +89,6 @@ typedef struct {
 	unsigned int IO_MUX_GPIO24_REG ;
 } IO_MUX_T;
 
-// //OBS: como no los registros no estan en orden creo este vector para acceder mas comodamente
-// unsigned int IO_MUX_VEC_AUX[40]={
-//   IO_MUX->IO_MUX_GPIO0_REG,
-//   IO_MUX->IO_MUX_GPIO2_REG,
-//   IO_MUX->IO_MUX_GPIO4_REG,
-//   IO_MUX->IO_MUX_GPIO5_REG,
-//   IO_MUX->IO_MUX_GPIO16_REG,
-//   IO_MUX->IO_MUX_GPIO17_REG,
-//   IO_MUX->IO_MUX_GPIO18_REG,
-//   IO_MUX->IO_MUX_GPIO19_REG,
-//   IO_MUX->IO_MUX_GPIO20_REG,
-//   IO_MUX->IO_MUX_GPIO21_REG,
-//   IO_MUX->IO_MUX_GPIO22_REG,
-//   IO_MUX->IO_MUX_GPIO23_REG,
-//   IO_MUX->IO_MUX_GPIO24_REG,
-//   IO_MUX->IO_MUX_GPIO25_REG,
-//   IO_MUX->IO_MUX_GPIO26_REG,
-//   IO_MUX->IO_MUX_GPIO27_REG,
-//   IO_MUX->IO_MUX_GPIO32_REG,
-//   IO_MUX->IO_MUX_GPIO33_REG,
-//   IO_MUX->IO_MUX_GPIO34_REG,
-//   IO_MUX->IO_MUX_GPIO35_REG,
-//   IO_MUX->IO_MUX_GPIO36_REG,
-//   IO_MUX->IO_MUX_GPIO37_REG,
-//   IO_MUX->IO_MUX_GPIO38_REG,
-//   IO_MUX->IO_MUX_GPIO39_REG
-//   };
+
 
 #endif
