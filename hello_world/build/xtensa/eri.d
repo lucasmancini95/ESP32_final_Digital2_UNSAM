@@ -1,5 +1,5 @@
-eri.o: /home/sasha/esp/esp-idf/components/xtensa/eri.c \
- /home/sasha/esp/esp-idf/components/xtensa/include/eri.h
+eri.o: /home/lucas/ESP/esp-idf/components/xtensa/eri.c \
+ /home/lucas/ESP/esp-idf/components/xtensa/include/eri.h
 
-/home/sasha/esp/esp-idf/components/xtensa/include/eri.h:
-/home/sasha/esp/esp-idf/components/xtensa/./eri.c:
+/home/lucas/ESP/esp-idf/components/xtensa/include/eri.h:
+/home/lucas/ESP/esp-idf/components/xtensa/./eri.c:

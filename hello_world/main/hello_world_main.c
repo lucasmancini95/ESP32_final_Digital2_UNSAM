@@ -11,6 +11,38 @@ Proyect MuMa Main
 //my libs:
 #include "GPIO_driver.h"
 
+//function declaration
+void intro_print();
+void output_test(unsigned int output_pin);
+void input_test(unsigned int input_pin);
+
+void app_main(void){
+    unsigned int output_pin=4;
+    //unsigned int input_pin=18;
+
+    intro_print();
+
+    gpio_output_direct_cfg(output_pin);
+    //gpio_input_direct_cfg(input_pin);
+
+    while(1){
+      output_test(output_pin);
+      //input_test(input_pin);
+    }
+
+
+    //Restart after i seconds
+    //for (int i = 30; i >= 0; i--) {
+    //     printf("Restarting in %d seconds...\n", i);
+    //     vTaskDelay(1000 / portTICK_PERIOD_MS);
+    // }
+    // printf("Restarting now.\n");
+    // fflush(stdout);
+    // esp_restart();
+}
+
+
+//functions:
 void intro_print(){
 
   printf("Proyect MuMa for ESP32\n");
@@ -28,35 +60,28 @@ void intro_print(){
           (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
 }
 
-void app_main(void){
-    unsigned int input_pin=18;
+void output_test(unsigned int output_pin){
+  unsigned int state=0;
 
-    intro_print();
-    printf("output salida %d\n",input_pin);
-    //gpio_input_direct_cfg(input_pin);
-    gpio_output_direct_cfg(input_pin);
-
-    while(1){
-
-    for (int i = 5; i >= 0; i--) {
-         printf("Reading again in %d seconds...\n", i);
-         vTaskDelay(1000 / portTICK_PERIOD_MS);
-    }
-    gpio_set_state(input_pin);
-    printf("salida!\n");
-    
-    //printf("The state of the gpio number %d is:  %d\n",input_pin, gpio_get_state(input_pin) );
-    //printf("lectura f de ESP:  %d\n", gpio_get_level(22) );
-
+  gpio_set_state(output_pin,1);
+  printf("Blinking the gpio for %d seconds (every %d second)...\n",5, 1);
+  for (int i = 5; i >= 0; i--) {
+      state= !state;
+       printf("The gpio state is: %d\n", state);
+       vTaskDelay(1000 / portTICK_PERIOD_MS);
+       gpio_set_state(output_pin, state);
   }
 
+  return;
+}
 
-    //Restart after i seconds
-    //for (int i = 30; i >= 0; i--) {
-    //     printf("Restarting in %d seconds...\n", i);
-    //     vTaskDelay(1000 / portTICK_PERIOD_MS);
-    // }
-    // printf("Restarting now.\n");
-    // fflush(stdout);
-    // esp_restart();
+void input_test(unsigned int input_pin){
+
+      //lectura del gpio
+      for (int i = 5; i >= 0; i--) {
+           printf("Reading again in %d seconds...\n", i);
+            vTaskDelay(1000 / portTICK_PERIOD_MS);
+      }
+      printf("The state of the gpio number %d is:  %d\n",input_pin, gpio_get_state(input_pin) );
+    return;
 }
