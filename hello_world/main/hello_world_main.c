@@ -29,10 +29,12 @@ void intro_print(){
 }
 
 void app_main(void){
-    unsigned int input_pin=15;
+    unsigned int input_pin=18;
 
     intro_print();
-    gpio_input_direct_cfg(input_pin);
+    printf("output salida %d\n",input_pin);
+    //gpio_input_direct_cfg(input_pin);
+    gpio_output_direct_cfg(input_pin);
 
     while(1){
 
@@ -40,8 +42,10 @@ void app_main(void){
          printf("Reading again in %d seconds...\n", i);
          vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
-
-    printf("The state of the gpio number %d is:  %d\n",input_pin, gpio_get_state(input_pin) );
+    gpio_set_state(input_pin);
+    printf("salida!\n");
+    
+    //printf("The state of the gpio number %d is:  %d\n",input_pin, gpio_get_state(input_pin) );
     //printf("lectura f de ESP:  %d\n", gpio_get_level(22) );
 
   }

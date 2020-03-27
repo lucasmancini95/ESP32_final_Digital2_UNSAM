@@ -5,5 +5,7 @@
 void gpio_input_direct_cfg(unsigned int x);
 void gpio_input_to_periferic_cfg(unsigned int x, unsigned int y);
 unsigned int gpio_get_state(unsigned int x);
+void gpio_output_direct_cfg(unsigned int x);
+void gpio_set_state(unsigned int x);
 
 //#endif

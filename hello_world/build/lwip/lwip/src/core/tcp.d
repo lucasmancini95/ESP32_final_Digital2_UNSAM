@@ -1,252 +1,288 @@
 lwip/src/core/tcp.o: \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/core/tcp.c \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
- /home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
- /home/lucas/ESP/esp-idf/components/newlib/platform_include/time.h \
- /home/lucas/ESP/esp-idf/components/newlib/platform_include/sys/time.h \
- /home/lucas/ESP/esp-idf/components/vfs/include/sys/ioctl.h \
- /home/lucas/ESP/esp-idf/components/esp_common/include/esp_task.h \
- /home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/include/sdkconfig.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/xtensa_config.h \
- /home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/hal.h \
- /home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
- /home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
- /home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/xtensa_context.h \
- /home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/corebits.h \
- /home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /home/lucas/ESP/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
- /home/lucas/ESP/esp-idf/components/esp_common/include/esp_system.h \
- /home/lucas/ESP/esp-idf/components/esp_common/include/esp_err.h \
- /home/lucas/ESP/esp-idf/components/newlib/platform_include/assert.h \
- /home/lucas/ESP/esp-idf/components/esp32/include/esp_attr.h \
- /home/lucas/ESP/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/lucas/ESP/esp-idf/components/esp_common/include/esp_idf_version.h \
- /home/lucas/ESP/esp-idf/components/lwip/include/apps/sntp/sntp.h \
- /home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
- /home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
- /home/lucas/ESP/esp-idf/components/newlib/platform_include/errno.h \
- /home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/projdefs.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/portable.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/portmacro.h \
- /home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
- /home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
- /home/lucas/ESP/esp-idf/components/esp_common/include/esp_private/crosscore_int.h \
- /home/lucas/ESP/esp-idf/components/esp_common/include/esp_timer.h \
- /home/lucas/ESP/esp-idf/components/heap/include/esp_heap_caps.h \
- /home/lucas/ESP/esp-idf/components/heap/include/multi_heap.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/portbenchmark.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/task.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/list.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/semphr.h \
- /home/lucas/ESP/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/mem.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/memp.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/stats.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/tcp.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/tcpbase.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/netif.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip4.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip4.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip6.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip6.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/icmp.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/icmp.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/icmp6.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/icmp6.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/priv/tcp_priv.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/tcp.h \
- /home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/nd6.h
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/core/tcp.c \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
+ /home/sasha/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
+ /home/sasha/esp/esp-idf/components/newlib/platform_include/time.h \
+ /home/sasha/esp/esp-idf/components/newlib/platform_include/sys/time.h \
+ /home/sasha/esp/esp-idf/components/vfs/include/sys/ioctl.h \
+ /home/sasha/esp/esp-idf/components/esp_common/include/esp_task.h \
+ /home/sasha/git/ESP32_final_Digital2_UNSAM/hello_world/build/include/sdkconfig.h \
+ /home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/FreeRTOSConfig.h \
+ /home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/xtensa_config.h \
+ /home/sasha/esp/esp-idf/components/xtensa/include/xtensa/hal.h \
+ /home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/sasha/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/xtensa_context.h \
+ /home/sasha/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
+ /home/sasha/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
+ /home/sasha/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
+ /home/sasha/esp/esp-idf/components/esp_common/include/esp_system.h \
+ /home/sasha/esp/esp-idf/components/esp_common/include/esp_err.h \
+ /home/sasha/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/sasha/esp/esp-idf/components/esp_common/include/esp_compiler.h \
+ /home/sasha/esp/esp-idf/components/xtensa/include/esp_attr.h \
+ /home/sasha/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /home/sasha/esp/esp-idf/components/esp_common/include/esp_idf_version.h \
+ /home/sasha/esp/esp-idf/components/lwip/include/apps/sntp/sntp.h \
+ /home/sasha/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
+ /home/sasha/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
+ /home/sasha/esp/esp-idf/components/newlib/platform_include/errno.h \
+ /home/sasha/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/projdefs.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/portable.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/portmacro.h \
+ /home/sasha/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
+ /home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
+ /home/sasha/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
+ /home/sasha/esp/esp-idf/components/esp_common/include/esp_private/crosscore_int.h \
+ /home/sasha/esp/esp-idf/components/esp_timer/include/esp_timer.h \
+ /home/sasha/esp/esp-idf/components/soc/include/soc/spinlock.h \
+ /home/sasha/esp/esp-idf/components/soc/include/soc/cpu.h \
+ /home/sasha/esp/esp-idf/components/xtensa/include/xt_instr_macros.h \
+ /home/sasha/esp/esp-idf/components/soc/include/hal/cpu_hal.h \
+ /home/sasha/esp/esp-idf/components/soc/include/hal/cpu_types.h \
+ /home/sasha/esp/esp-idf/components/soc/src/esp32/include/hal/cpu_ll.h \
+ /home/sasha/esp/esp-idf/components/soc/soc/esp32/include/soc/cpu_caps.h \
+ /home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
+ /home/sasha/esp/esp-idf/components/soc/include/soc/soc_memory_layout.h \
+ /home/sasha/esp/esp-idf/components/soc/soc/esp32/include/soc/soc.h \
+ /home/sasha/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /home/sasha/esp/esp-idf/components/soc/include/soc/compare_set.h \
+ /home/sasha/esp/esp-idf/components/heap/include/esp_heap_caps.h \
+ /home/sasha/esp/esp-idf/components/heap/include/multi_heap.h \
+ /home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/portbenchmark.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/task.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/list.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/semphr.h \
+ /home/sasha/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/sasha/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/mem.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/memp.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/stats.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcp.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcpbase.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/netif.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip4.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip6.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/icmp.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/icmp.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/icmp6.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/icmp6.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/tcp_priv.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/tcp.h \
+ /home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/nd6.h
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
+/home/sasha/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
 
-/home/lucas/ESP/esp-idf/components/newlib/platform_include/time.h:
+/home/sasha/esp/esp-idf/components/newlib/platform_include/time.h:
 
-/home/lucas/ESP/esp-idf/components/newlib/platform_include/sys/time.h:
+/home/sasha/esp/esp-idf/components/newlib/platform_include/sys/time.h:
 
-/home/lucas/ESP/esp-idf/components/vfs/include/sys/ioctl.h:
+/home/sasha/esp/esp-idf/components/vfs/include/sys/ioctl.h:
 
-/home/lucas/ESP/esp-idf/components/esp_common/include/esp_task.h:
+/home/sasha/esp/esp-idf/components/esp_common/include/esp_task.h:
 
-/home/lucas/git/ESP32_final_Digital2_UNSAM/hello_world/build/include/sdkconfig.h:
+/home/sasha/git/ESP32_final_Digital2_UNSAM/hello_world/build/include/sdkconfig.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+/home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/FreeRTOSConfig.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/xtensa_config.h:
+/home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/xtensa_config.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/hal.h:
+/home/sasha/esp/esp-idf/components/xtensa/include/xtensa/hal.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
+/home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h:
+/home/sasha/esp/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
+/home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h:
+/home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h:
+/home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/xtensa_context.h:
+/home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/xtensa_context.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/corebits.h:
+/home/sasha/esp/esp-idf/components/xtensa/include/xtensa/corebits.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h:
+/home/sasha/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h:
 
-/home/lucas/ESP/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
+/home/sasha/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
-/home/lucas/ESP/esp-idf/components/esp_common/include/esp_system.h:
+/home/sasha/esp/esp-idf/components/esp_common/include/esp_system.h:
 
-/home/lucas/ESP/esp-idf/components/esp_common/include/esp_err.h:
+/home/sasha/esp/esp-idf/components/esp_common/include/esp_err.h:
 
-/home/lucas/ESP/esp-idf/components/newlib/platform_include/assert.h:
+/home/sasha/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/lucas/ESP/esp-idf/components/esp32/include/esp_attr.h:
+/home/sasha/esp/esp-idf/components/esp_common/include/esp_compiler.h:
 
-/home/lucas/ESP/esp-idf/components/esp_common/include/esp_bit_defs.h:
+/home/sasha/esp/esp-idf/components/xtensa/include/esp_attr.h:
 
-/home/lucas/ESP/esp-idf/components/esp_common/include/esp_idf_version.h:
+/home/sasha/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/include/apps/sntp/sntp.h:
+/home/sasha/esp/esp-idf/components/esp_common/include/esp_idf_version.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
+/home/sasha/esp/esp-idf/components/lwip/include/apps/sntp/sntp.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
+/home/sasha/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
 
-/home/lucas/ESP/esp-idf/components/newlib/platform_include/errno.h:
+/home/sasha/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
+/home/sasha/esp/esp-idf/components/newlib/platform_include/errno.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
+/home/sasha/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/projdefs.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/projdefs.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/portable.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/portable.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/portmacro.h:
+/home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/portmacro.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/xtruntime.h:
+/home/sasha/esp/esp-idf/components/xtensa/include/xtensa/xtruntime.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h:
+/home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h:
 
-/home/lucas/ESP/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h:
+/home/sasha/esp/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h:
 
-/home/lucas/ESP/esp-idf/components/esp_common/include/esp_private/crosscore_int.h:
+/home/sasha/esp/esp-idf/components/esp_common/include/esp_private/crosscore_int.h:
 
-/home/lucas/ESP/esp-idf/components/esp_common/include/esp_timer.h:
+/home/sasha/esp/esp-idf/components/esp_timer/include/esp_timer.h:
 
-/home/lucas/ESP/esp-idf/components/heap/include/esp_heap_caps.h:
+/home/sasha/esp/esp-idf/components/soc/include/soc/spinlock.h:
 
-/home/lucas/ESP/esp-idf/components/heap/include/multi_heap.h:
+/home/sasha/esp/esp-idf/components/soc/include/soc/cpu.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/portbenchmark.h:
+/home/sasha/esp/esp-idf/components/xtensa/include/xt_instr_macros.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/mpu_wrappers.h:
+/home/sasha/esp/esp-idf/components/soc/include/hal/cpu_hal.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/task.h:
+/home/sasha/esp/esp-idf/components/soc/include/hal/cpu_types.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/list.h:
+/home/sasha/esp/esp-idf/components/soc/src/esp32/include/hal/cpu_ll.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/queue.h:
+/home/sasha/esp/esp-idf/components/soc/soc/esp32/include/soc/cpu_caps.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/semphr.h:
+/home/sasha/esp/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h:
 
-/home/lucas/ESP/esp-idf/components/freertos/include/freertos/queue.h:
+/home/sasha/esp/esp-idf/components/soc/include/soc/soc_memory_layout.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
+/home/sasha/esp/esp-idf/components/soc/soc/esp32/include/soc/soc.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/sasha/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/mem.h:
+/home/sasha/esp/esp-idf/components/soc/include/soc/compare_set.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/memp.h:
+/home/sasha/esp/esp-idf/components/heap/include/esp_heap_caps.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h:
+/home/sasha/esp/esp-idf/components/heap/include/multi_heap.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h:
+/home/sasha/esp/esp-idf/components/freertos/xtensa/include/freertos/portbenchmark.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/mpu_wrappers.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/stats.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/task.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/tcp.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/list.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/tcpbase.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/semphr.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/err.h:
+/home/sasha/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip.h:
+/home/sasha/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/mem.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/memp.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip4.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/stats.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip4.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcp.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip6.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcpbase.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip6.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/icmp.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/icmp.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/icmp6.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/icmp6.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/priv/tcp_priv.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/prot/tcp.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h:
 
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/include/lwip/nd6.h:
-/home/lucas/ESP/esp-idf/components/lwip/lwip/src/core/tcp.c:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip4.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip6.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/icmp.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/icmp.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/icmp6.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/icmp6.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/tcp_priv.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/tcp.h:
+
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/include/lwip/nd6.h:
+/home/sasha/esp/esp-idf/components/lwip/lwip/src/core/tcp.c:

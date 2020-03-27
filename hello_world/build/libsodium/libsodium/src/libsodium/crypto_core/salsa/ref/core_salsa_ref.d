@@ -1,18 +1,18 @@
 libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.o: \
- /home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c \
- /home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h \
- /home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h \
- /home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h \
- /home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h \
- /home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/private/common.h
+ /home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c \
+ /home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h \
+ /home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h \
+ /home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h \
+ /home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h \
+ /home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/private/common.h
 
-/home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h:
+/home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h:
 
-/home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h:
+/home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h:
 
-/home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h:
+/home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h:
 
-/home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h:
+/home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h:
 
-/home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/private/common.h:
-/home/lucas/ESP/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c:
+/home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/private/common.h:
+/home/sasha/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c:
