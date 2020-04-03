@@ -10,23 +10,32 @@ Proyect MuMa Main
 
 //my libs:
 #include "GPIO_driver.h"
+#include "I2C_driver.h"
 
-//function declaration
+//function declaration:
 void intro_print();
+
+//i2c test function declaration
+void i2c_slave_init();
+void i2c_master_init();
+void i2c_test();
+
+//gpio test function declaration
 void output_test(unsigned int output_pin);
 void input_test(unsigned int input_pin);
 
 void app_main(void){
-    unsigned int output_pin=4;
+    unsigned int I2C_num=0; //I2C0 or I2C1
     //unsigned int input_pin=18;
 
     intro_print();
 
-    gpio_output_direct_cfg(output_pin);
-    //gpio_input_direct_cfg(input_pin);
+    i2c_slave_init();
+    i2c_master_init();
+    i2c_test();
 
     while(1){
-      output_test(output_pin);
+      //output_test(output_pin);
       //input_test(input_pin);
     }
 
