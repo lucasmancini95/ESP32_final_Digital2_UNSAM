@@ -4,6 +4,55 @@
 
 #include "gpio_driver.h"
 
+
+typedef enum{I2C_NUM_0, I2C_NUM_1}i2c_number_t;
+typedef enum{I2C_SLAVE , I2C_MASTER}i2c_mode_t;
+typedef enum{I2C_SLAVE , I2C_MASTER}gpio_pullup_t;
+typedef struct{
+   unsigned int i2c_buffer_read_size;
+   unsigned int i2c_buffer_write_size;
+}i2c_buffer_size_t;
+
+typedef struct{
+ int sda_io_num;
+ int scl_io_num;
+ //gpio_pullup_t sda_pullup_en;
+ //gpio_pullup_t scl_pullup_en;
+}i2c_pins_t;
+
+typedef enum{RSTART=0, WRITE=1, READ=2, STOP=3, END=4}i2c_op_code_t;
+
+
+void i2c_init(i2c_number_t i2c_num, i2c_mode_t i2c_mode,i2c_pins_t i2c_pins,i2c_buffer_size_t i2c_buffer_size);
+void i2c_set_pin(i2c_number_t i2c_num, int sda_io_num, int scl_io_num,/* gpio_pullup_t sda_pullup_en, gpio_pullup_t scl_pullup_en,*/ i2c_mode_t mode);
+void i2c_master_init();
+
+void i2c_slave_init();
+void i2c_master_new_link();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Configuration macros-----------------------------------------------------
 #define FUN_DRV_VALUE 3 // desired value for output strength (0-3), proportional to current that can be sourced/sunk from the selected pin.
 #define ENABLE_OUTPUT_OPEN_DRAIN 0 //Output open drain mode enable
