@@ -7,9 +7,17 @@
 #define I2C1_PORT_BASE		0x3FF67000 //direccion base del registro
 #define I2C1				((I2C_T *) I2C1_PORT_BASE) //Apunto la struct a la direccion de memoria base del i2c1
 
+
+#define MS_MODE_BIT 4
+#define TRANS_START_BIT 5
+#define I2C_SLAVE_ADDR_10BIT_EN 31
+
+
 typedef struct {
 unsigned int I2C_SCL_LOW_PERIOD_REG; // Configures the low level width of the SCL clock
-unsigned int NA1[4];
+unsigned int I2C_CTR_REG;
+unsigned int I2C_SR_REG;
+unsigned int I2C_TO_REG;
 //Configuration registers
 unsigned int I2C_SLAVE_ADDR_REG //Configures the I2C slave - R/W
 unsigned int I2C_RXFIFO_ST_REG //FIFO status register - RO
@@ -35,6 +43,9 @@ unsigned int I2C_SCL_FILTER_CFG_REG ; // SCL filter configuration register R/W
 unsigned int I2C_SDA_FILTER_CFG_REG  ; // SDA filter configuration register R/W
 //Command registers
 unsigned int I2C_COMD_REG[16];
+unsigned int NA5[2];
+//i2c RAM structure
+unsigned int I2C_RAM_REG[8];
 } I2C_T;
 
 #endif

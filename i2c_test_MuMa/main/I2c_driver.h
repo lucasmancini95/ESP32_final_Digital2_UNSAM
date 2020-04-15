@@ -22,6 +22,18 @@ typedef struct{
 
 typedef enum{RSTART=0, WRITE=1, READ=2, STOP=3, END=4}i2c_op_code_t;
 
+typedef enum {
+    I2C_ADDR_BIT_7 = 0,    /*!< I2C 7bit address for slave mode */
+    I2C_ADDR_BIT_10,       /*!< I2C 10bit address for slave mode */
+    I2C_ADDR_BIT_MAX,
+} i2c_addr_mode_t;
+
+typedef enum {
+    I2C_MASTER_ACK = 0x0,        /*!< I2C ack for each byte read */
+    I2C_MASTER_NACK = 0x1,       /*!< I2C nack for each byte read */
+    I2C_MASTER_LAST_NACK = 0x2,   /*!< I2C nack for the last byte*/
+    I2C_MASTER_ACK_MAX,
+} i2c_ack_type_t;
 
 void i2c_init(i2c_number_t i2c_num, i2c_mode_t i2c_mode,i2c_pins_t i2c_pins,i2c_buffer_size_t i2c_buffer_size);
 void i2c_set_pin(i2c_number_t i2c_num, int sda_io_num, int scl_io_num,/* gpio_pullup_t sda_pullup_en, gpio_pullup_t scl_pullup_en,*/ i2c_mode_t mode);
@@ -29,6 +41,10 @@ void i2c_master_init();
 
 void i2c_slave_init();
 void i2c_master_new_link();
+void i2c_master_write_adress();
+void i2c_master_write_data();
+void i2c_master_config_ack();
+
 
 
 
