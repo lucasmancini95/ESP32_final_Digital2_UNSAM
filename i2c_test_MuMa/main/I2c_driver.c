@@ -35,7 +35,7 @@ else if(i2c_num == I2C_NUM_1){
   I2Cx==I2C1;
 }
 
-I2CX->I2C_CTR_REG|=1<< MCOMDS_MODE_BIT; //Set this bit to configure the module as an I 2 C Master.
+I2CX->I2C_CTR_REG|=1<< MCOMDS_MODE_BIT; //Set this bit to configure the module as an I2C Master.
 
 if(i2c_10_adrr_option == TRUE){ // to enable the 10 bit adrr of the slave
   I2CX->I2C_SLAVE_ADDR_REG|=1<<I2C_SLAVE_ADDR_10BIT_EN;
