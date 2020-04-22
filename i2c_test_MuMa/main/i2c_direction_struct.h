@@ -10,8 +10,12 @@
 
 #define MS_MODE_BIT 4
 #define TRANS_START_BIT 5
-#define I2C_SLAVE_ADDR_10BIT_EN 31
-
+#define SLAVE_ADDR_10BIT_EN_BIT 31
+#define OP_CODE_BITS 11
+#define ACK_VALUE_BIT 10
+#define ACK_EXP_BIT 9
+#define ACK_CHECK_EN_BIT 8
+#define BYTE_NUM_BITS 0
 
 typedef struct {
 unsigned int I2C_SCL_LOW_PERIOD_REG; // Configures the low level width of the SCL clock

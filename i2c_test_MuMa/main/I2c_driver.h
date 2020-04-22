@@ -4,6 +4,12 @@
 
 #include "gpio_driver.h"
 
+//configuration macros
+
+#define I2C_SLAVE_ADDR_10BIT_OPC 0 //use this macro to Enable('1') the 10bit slave address
+//#define I2C_SLAVE_ADDR_CONFIG 0x21 //if this device is used as slave, this will be its own adress
+
+//Data types
 
 typedef enum{I2C_NUM_0, I2C_NUM_1}i2c_number_t;
 typedef enum{I2C_SLAVE , I2C_MASTER}i2c_mode_t;
@@ -20,7 +26,7 @@ typedef struct{
  //gpio_pullup_t scl_pullup_en;
 }i2c_pins_t;
 
-typedef enum{RSTART=0, WRITE=1, READ=2, STOP=3, END=4}i2c_op_code_t;
+
 
 typedef enum {
     I2C_ADDR_BIT_7 = 0,    /*!< I2C 7bit address for slave mode */
@@ -34,6 +40,25 @@ typedef enum {
     I2C_MASTER_LAST_NACK = 0x2,   /*!< I2C nack for the last byte*/
     I2C_MASTER_ACK_MAX,
 } i2c_ack_type_t;
+
+
+
+typedef  i2c_cmd_t i2c_cmd_array_t[16];  //obs:the first command MUST be RSTAR & the last one STOP
+
+typedef enum{RSTART=0, WRITE=1, READ=2, STOP=3, END=4}i2c_op_code_t;
+
+typedef struct{
+ bool ack_value; //When receiving data, this bit is used to indicate whether the receiver will send an ACK after this byte has been received.
+ unsigned int ack_exp; //This bit is to set an expected ACK value for the transmitter.
+ bool ack_check_en; //When transmitting a byte, this bit enables checking the ACK value received against the ack_exp value. Checking is enabled by 1, while 0 disables it.
+}i2c_ack_config_t;
+
+typedef struct{
+ i2c_op_code_t op_code;
+ i2c_ack_config_t ack_config;
+ unsigned int byte_num;
+}i2c_cmd_t;
+
 
 void i2c_init(i2c_number_t i2c_num, i2c_mode_t i2c_mode,i2c_pins_t i2c_pins,i2c_buffer_size_t i2c_buffer_size);
 void i2c_set_pin(i2c_number_t i2c_num, int sda_io_num, int scl_io_num,/* gpio_pullup_t sda_pullup_en, gpio_pullup_t scl_pullup_en,*/ i2c_mode_t mode);
