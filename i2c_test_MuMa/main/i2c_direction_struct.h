@@ -16,6 +16,7 @@
 #define ACK_EXP_BIT 9
 #define ACK_CHECK_EN_BIT 8
 #define BYTE_NUM_BITS 0
+#define I2C_TRANS_COMPLETE_INT_BIT 7
 
 typedef struct {
 unsigned int I2C_SCL_LOW_PERIOD_REG; // Configures the low level width of the SCL clock

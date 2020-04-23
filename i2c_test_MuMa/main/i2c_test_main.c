@@ -25,18 +25,50 @@ void output_test(unsigned int output_pin);
 void input_test(unsigned int input_pin);
 
 void app_main(void){
-    unsigned int I2C_num=0; //I2C0 or I2C1
-    //unsigned int input_pin=18;
+    int i=0;
+    i2c_number_t I2C_num=I2C_NUM_0; //I2C0 or I2C1
+    i2c_pins_t test_pins;
+    i2c_buffer_size_t test_buff;//only for slave test
+    int data_size=5;
+    unsigned int data[data_size];
+    unsigned int address;
+    i2c_cmd_array_t cmd_array;  //obs:the first command MUST be RSTAR & the last one STOP
+
+    test_pins.sda_io_num=8;
+    test_pins.scl_io_num=9;
 
     intro_print();
 
-    i2c_slave_init();
-    i2c_master_init();
-    i2c_test();
+    i2c_init(I2C_NUM_0, I2C_MASTER , test_pins , test_buff);
+
+    data[0]=address;
+    data[1]=2;
+    data[2]=0;
+    data[3]=7;
+    data[4]=7;
+
+    i2c_ram_fill(I2C_NUM_0,data, data_size)
+
+
+
+    (cmd_array[0]).i2c_op_code_t=RSTAR;
+
+    for (i = 1; i < (data_size+1); i++) {
+      (cmd_array[i]).i2c_op_code_t=WRITE;
+      //((cmd_array[0]).ack_config).ack_check_en=1;
+      (cmd_array[i]).byte_num=1;
+    }
+
+    (cmd_array[data_size+1]).i2c_op_code_t=STOP;
+
+
+
 
     while(1){
-      //output_test(output_pin);
-      //input_test(input_pin);
+      printf("%s\n","se creara una nueva comunicacion con el slave" );
+      i2c_master_new_link(i2c_cmd_array_t* cmd_array , I2C_NUM_0);
+      vTaskDelay(10000 / portTICK_PERIOD_MS);
+
     }
 
 

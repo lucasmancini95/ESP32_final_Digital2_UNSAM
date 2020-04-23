@@ -13,7 +13,7 @@
 
 typedef enum{I2C_NUM_0, I2C_NUM_1}i2c_number_t;
 typedef enum{I2C_SLAVE , I2C_MASTER}i2c_mode_t;
-typedef enum{I2C_SLAVE , I2C_MASTER}gpio_pullup_t;
+
 typedef struct{
    unsigned int i2c_buffer_read_size;
    unsigned int i2c_buffer_write_size;
@@ -25,8 +25,6 @@ typedef struct{
  //gpio_pullup_t sda_pullup_en;
  //gpio_pullup_t scl_pullup_en;
 }i2c_pins_t;
-
-
 
 typedef enum {
     I2C_ADDR_BIT_7 = 0,    /*!< I2C 7bit address for slave mode */
@@ -56,7 +54,7 @@ typedef struct{
 typedef struct{
  i2c_op_code_t op_code;
  i2c_ack_config_t ack_config;
- unsigned int byte_num;
+ unsigned int byte_num; //length of data (in bytes) to be read or written
 }i2c_cmd_t;
 
 

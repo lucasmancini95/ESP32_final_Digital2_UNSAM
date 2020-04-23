@@ -62,6 +62,31 @@ void i2c_init_slave(i2c_num){
   return;
 }
 
+void i2c_ram_fill(i2c_number_t i2c_num,unsigned int * data, int size){
+    I2C_T* I2CX;
+    int i=0;
+
+    if(i=>14){
+      printf("La cantidad de datos debe 14 como maximo\n" );
+      return;
+    }
+
+    if(i2c_num == I2C_NUM_0){
+      I2CX==I2C0;
+    }
+    else if(i2c_num == I2C_NUM_1){
+      I2CX==I2C1;
+    }
+
+    for(i=0;i<size;i++){
+      (I2CX->I2C_RAM_REG)[i]|=data[i];
+    }
+
+    return;
+}
+
+
+
 void i2c_master_new_link(i2c_cmd_array_t* cmd_array , i2c_number_t i2c_num){
 
   if(((cmd_array[0]).op_code)!=RSTART){
@@ -76,6 +101,7 @@ void i2c_master_new_link(i2c_cmd_array_t* cmd_array , i2c_number_t i2c_num){
   }
 
   I2CX->I2C_CTR_REG|= 1<< TRANS_START_BIT; //Set this bit to start sending the data in txfifo. (R/W)
+
   return;
 }
 
@@ -103,21 +129,26 @@ void i2c_master_fill_cmd(i2c_cmd_t cmd,int i, i2c_number_t i2c_num){
 }
 
 
-void i2c_master_write_adress(){}
-void i2c_master_write_data(){}
+void i2c_master_test1(i2c_number_t i2c_num){
+  int i=0;
+  I2C_T* I2CX;
+  unsigned int aux=0;
 
-void i2c_write_on_RAM(i2c_num){
+  if(i2c_num == I2C_NUM_0){
+    I2CX==I2C0;
+  }
+  else if(i2c_num == I2C_NUM_1){
+    I2CX==I2C1;
+  }
 
-  /* RAM, the size of which is 32 x 8 bits (32*8=256), and it is directly mapped onto the address space of the CPU cores,
-starting at address REG_I2C_BASE+0x100. Each "byte(8 bits) of I2C data" is stored in a "32-bit word of memory"
-(so, the first byte is at +0x100, the second byte at +0x104, the third byte at +0x108, etc.)*/
-//Users need to set register I2C_NONFIFO_EN
+  aux=((I2CX->I2C_INT_RAW_REG)&(1<<I2C_TRANS_COMPLETE_INT_BIT))>>I2C_TRANS_COMPLETE_INT_BIT;
 
-//REG_I2C_BASE --> es I2C0 o I2C1 --> i2c_num
-//RAM_
-//0x100 tu primer byte (8 bits) --> los primero 8 con el dato y los siguientes 24 vacios
-//distancia de 4 bytes==> 32 bits
-//0x104 tu segundo byte (8 bits) --> los primero 8 con el dato y los siguientes 24 vacios
-//etc ... hasta --> ??
+  while(aux!=1){
+      if((((I2CX->I2C_INT_RAW_REG)&(1<<I2C_MASTER_TRAN_COMP_INT_BIT))>>I2C_MASTER_TRAN_COMP_INT_BIT) == 1){
+        printf("%s\n", );
+
+      }
+    aux=((I2CX->I2C_INT_RAW_REG)&(1<<I2C_TRANS_COMPLETE_INT_BIT))>>I2C_TRANS_COMPLETE_INT_BIT;
+  }
 
 }
