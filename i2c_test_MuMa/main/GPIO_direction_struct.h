@@ -1,11 +1,20 @@
 #ifndef GPIO_DIRECTION_STRUCT_H_
 #define GPIO_DIRECTION_STRUCT_H_
 
+
+//GPIO and IO MUX Bases
 #define GPIO_PORT_BASE		0x3FF44000 //direccion base del registro
 #define GPIO 				((GPIO_T *) GPIO_PORT_BASE) //Apunto la struct a la direccion de memoria base de los gpio
 
 #define IO_MUX_PORT_BASE		0x3FF49000 //direccion base del registro
 #define IO_MUX 				((IO_MUX_T *) IO_MUX_PORT_BASE) //Apunto la struct a la direccion de memoria base de los gpio
+
+//GPIO matrix Pheripherals
+#define I2CEXT1_SCL_IN 95
+#define I2CEXT1_SCL_OUT 95
+#define I2CEXT1_SDA_IN 96
+#define I2CEXT1_SDA_OUT 96
+
 
 typedef struct {
 	unsigned int NA;

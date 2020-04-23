@@ -32,7 +32,7 @@ void gpio_input_direct_cfg(unsigned int x){
     IO_MUX->IO_MUX_GPIO38_REG,
     IO_MUX->IO_MUX_GPIO39_REG
     };
-    
+
   if (x > 39){
       printf("%s\n","error: la x es mas grande de lo que debe" );
     }
@@ -211,8 +211,8 @@ void gpio_output_peripheral_cfg(unsigned int x,unsigned int y){
     if(x<32){
     GPIO->GPIO_ENABLE_REG |= (1<<x); //seteo el pad que voy a usar del 0-31
     }
-  else if (x>31 && x<40){
-    GPIO->GPIO_ENABLE_REG |= (1<<(x-32)); //seteo el pad que voy a usar del 32-39
+    else if (x>31 && x<40){
+    GPIO->GPIO_ENABLE1_REG |= (1<<(x-32)); //seteo el pad que voy a usar del 32-39
     }
 
 

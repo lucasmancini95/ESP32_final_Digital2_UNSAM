@@ -19,11 +19,13 @@ void i2c_init(i2c_number_t i2c_num, i2c_mode_t i2c_mode,i2c_pins_t i2c_pins,i2c_
   return;
 }
 
-void i2c_set_pin(i2c_number_t i2c_num, int sda_io_num, int scl_io_num);
+void i2c_set_pin(int sda_io_num, int scl_io_num);
 
-    //configurar el GPIO matrix
-      //con los pines de SDA y SCL
-      //y el numero del periferico I2C 0 o 1
+  gpio_input_to_peripheral_cfg(sda_io_num,I2CEXT1_SDA_IN);
+  gpio_input_to_peripheral_cfg(scl_io_num,I2CEXT1_SCL_IN);
+
+  gpio_output_peripheral_cfg(sda_io_num,I2CEXT1_SDA_OUT);
+  gpio_output_peripheral_cfg(scl_io_num,I2CEXT1_SCL_OUT);
 
 }
 
@@ -32,10 +34,10 @@ void i2c_init_master(i2c_number_t i2c_num){
   I2C_T* I2CX;
 
   if(i2c_num == I2C_NUM_0){
-    I2CX==I2C0;
+    I2CX=I2C0;
   }
   else if(i2c_num == I2C_NUM_1){
-    I2CX==I2C1;
+    I2CX=I2C1;
   }
 
   I2CX->I2C_CTR_REG|=1<< MCOMDS_MODE_BIT; //Set this bit to configure the module as an I2C Master.
@@ -52,10 +54,10 @@ void i2c_init_slave(i2c_num){
   I2C_T* I2CX;
 
   if(i2c_num == I2C_NUM_0){
-    I2Cx==I2C0;
+    I2Cx=I2C0;
   }
   else if(i2c_num == I2C_NUM_1){
-    I2Cx==I2C1;
+    I2Cx=I2C1;
   }
   I2CX->I2C_CTR_REG&=~(1<< MS_MODE_BIT); //Clear this bit to configure the module as an I 2 C Slave.
   //I2CX->I2C_SLAVE_ADDR_REG|= I2C_SLAVE_ADDR_CONFIG; //When configured as an I 2 C Slave, this field is used to configure the its own address
@@ -72,10 +74,10 @@ void i2c_ram_fill(i2c_number_t i2c_num,unsigned int * data, int size){
     }
 
     if(i2c_num == I2C_NUM_0){
-      I2CX==I2C0;
+      I2CX=I2C0;
     }
     else if(i2c_num == I2C_NUM_1){
-      I2CX==I2C1;
+      I2CX=I2C1;
     }
 
     for(i=0;i<size;i++){
@@ -109,10 +111,10 @@ void i2c_master_fill_cmd(i2c_cmd_t cmd,int i, i2c_number_t i2c_num){
   I2C_T* I2CX;
 
   if(i2c_num == I2C_NUM_0){
-    I2CX==I2C0;
+    I2CX=I2C0;
   }
   else if(i2c_num == I2C_NUM_1){
-    I2CX==I2C1;
+    I2CX=I2C1;
   }
 
     (I2CX->I2C_COMD_REG)[i]|=cmd.op_code<<OP_CODE_BITS;
@@ -135,10 +137,10 @@ void i2c_master_test1(i2c_number_t i2c_num){
   unsigned int aux=0;
 
   if(i2c_num == I2C_NUM_0){
-    I2CX==I2C0;
+    I2CX=I2C0;
   }
   else if(i2c_num == I2C_NUM_1){
-    I2CX==I2C1;
+    I2CX=I2C1;
   }
 
   aux=((I2CX->I2C_INT_RAW_REG)&(1<<I2C_TRANS_COMPLETE_INT_BIT))>>I2C_TRANS_COMPLETE_INT_BIT;
